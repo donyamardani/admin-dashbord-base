@@ -288,3 +288,4 @@ export const updateProductValidator = [
 
   ...informationItemValidator,
 ];
+

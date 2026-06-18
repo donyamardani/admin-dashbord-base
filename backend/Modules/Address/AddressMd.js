@@ -1,55 +1,78 @@
 import mongoose from "mongoose";
-const addressSchema = new mongoose.Schema({
-  userId: {
-    type: mongoose.Schema.Types.ObjectId,
-    ref: "User",
+
+const addressSchema = new mongoose.Schema(
+{
+  userId:{
+    type:mongoose.Schema.Types.ObjectId,
+    ref:"User",
+    required:true,
+    index:true
   },
-  title: {
-    type: String,
-    required: [true, "title  is required"],
+
+  title:{
+    type:String,
+    required:[true,"title is required"]
   },
-  description: {
-    type: String,
-    required: [true, "description  is required"],
+
+  description:{
+    type:String,
+    required:[true,"description is required"]
   },
-  city: {
-    type: String,
-    required: [true, "city  is required"],
+
+  province:{
+    type:String,
+    required:[true,"province is required"]
   },
-  postalCode: {
-    type: String,
-    match: [/^\d{5}-?\d{5}$/, "invalid postal code"],
-    required: [true, "postalCode  is required"],
+
+  city:{
+    type:String,
+    required:[true,"city is required"]
   },
-  receiverPhoneNumber: {
-    type: String,
-    match: [/^(?:\+98|0)?9\d{9}$/, "invalid Phone number"],
+
+  postalCode:{
+    type:String,
+    match:[/^\d{5}-?\d{5}$/,"invalid postal code"],
+    required:[true,"postalCode is required"]
   },
-  receiverFullName: {
-    type: String,
+
+  receiverFullName:{
+    type:String,
+    required:[true,"receiverFullName is required"]
   },
-  province: {
-    type: String,
-    required: [true, "province  is required"],
+
+  receiverPhoneNumber:{
+    type:String,
+    required:[true,"receiverPhoneNumber is required"],
+    match:[/^(?:\+98|0)?9\d{9}$/,"invalid phone number"]
   },
-  NO: {
-    type: String,
-    required: [true, "NO is required"],
+
+  buildingNo:{
+    type:String,
+    required:[true,"building number is required"]
   },
-  lat: {
-    type: String,
-    required: [true, "lat is required"],
+
+  floor:{
+    type:String
   },
-  lng: {
-    type: String,
-    required: [true, "lng is required"],
+
+  units:{
+    type:String
   },
-  floor: {
-    type: String,
+
+  lat:{
+    type:Number,
+    required:true
   },
-  units: {
-    type: String,
-  },
-},{timestamps:true});
-const Address=mongoose.model('Address',addressSchema)
+
+  lng:{
+    type:Number,
+    required:true
+  }
+
+},
+{timestamps:true}
+)
+
+const Address = mongoose.model("Address",addressSchema)
+
 export default Address

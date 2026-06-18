@@ -1,0 +1,2310 @@
+[
+  {
+    "_id": {
+      "$oid": "6a15c02d5cf7fe2936178a6d"
+    },
+    "brandId": {
+      "$oid": "6a15bcd55cf7fe2936178a33"
+    },
+    "categoryId": {
+      "$oid": "6a15bdd25cf7fe2936178a42"
+    },
+    "defaultProductVariantId": {
+      "$oid": "6a18cc4089c5aa88d0dd6b39"
+    },
+    "productVariantIds": [
+      {
+        "$oid": "6a18cc4089c5aa88d0dd6b39"
+      },
+      {
+        "$oid": "6a18cc4089c5aa88d0dd6b3a"
+      },
+      {
+        "$oid": "6a18cc4089c5aa88d0dd6b3b"
+      }
+    ],
+    "variantIds": [
+      {
+        "$oid": "6a15bf3b5cf7fe2936178a51"
+      },
+      {
+        "$oid": "6a15bf3b5cf7fe2936178a5c"
+      },
+      {
+        "$oid": "6a15bf3b5cf7fe2936178a56"
+      },
+      {
+        "$oid": "6a15bf3b5cf7fe2936178a5d"
+      },
+      {
+        "$oid": "6a15bf3b5cf7fe2936178a57"
+      },
+      {
+        "$oid": "6a15bf3b5cf7fe2936178a5f"
+      }
+    ],
+    "title": "Apple iPhone 15 Pro Max",
+    "description": "Latest Apple flagship smartphone with premium titanium design, advanced camera system and powerful A17 chip.",
+    "information": [
+      {
+        "key": "display",
+        "value": "6.7 inch OLED"
+      },
+      {
+        "key": "camera",
+        "value": "48MP Triple Camera"
+      },
+      {
+        "key": "battery",
+        "value": "4500mAh"
+      },
+      {
+        "key": "chipset",
+        "value": "A17 Pro"
+      }
+    ],
+    "images": [
+      "/upload/products/mobile/iphone-15.jpg",
+      "/upload/products/mobile/iphone-16.jpg"
+    ],
+    "tags": [
+      "apple",
+      "iphone",
+      "mobile",
+      "ios",
+      "flagship"
+    ],
+    "ratingCount": 240,
+    "avgRating": 4.9,
+    "boughtCount": 420,
+    "minPrice": 1234.05,
+    "maxPrice": 1439.1,
+    "isPublished": true
+  },
+  {
+    "_id": {
+      "$oid": "6a15c02d5cf7fe2936178a6e"
+    },
+    "brandId": {
+      "$oid": "6a15bcd55cf7fe2936178a34"
+    },
+    "categoryId": {
+      "$oid": "6a15bdd25cf7fe2936178a42"
+    },
+    "defaultProductVariantId": {
+      "$oid": "6a18cc4089c5aa88d0dd6b3c"
+    },
+    "productVariantIds": [
+      {
+        "$oid": "6a18cc4089c5aa88d0dd6b3c"
+      },
+      {
+        "$oid": "6a18cc4089c5aa88d0dd6b3d"
+      }
+    ],
+    "variantIds": [
+      {
+        "$oid": "6a15bf3b5cf7fe2936178a51"
+      },
+      {
+        "$oid": "6a15bf3b5cf7fe2936178a5d"
+      },
+      {
+        "$oid": "6a15bf3b5cf7fe2936178a53"
+      },
+      {
+        "$oid": "6a15bf3b5cf7fe2936178a5f"
+      }
+    ],
+    "title": "Samsung Galaxy S24 Ultra",
+    "description": "Premium Samsung flagship phone with AI camera features and ultra smooth display.",
+    "information": [
+      {
+        "key": "display",
+        "value": "6.8 inch Dynamic AMOLED"
+      },
+      {
+        "key": "camera",
+        "value": "200MP Camera"
+      },
+      {
+        "key": "battery",
+        "value": "5000mAh"
+      },
+      {
+        "key": "refreshRate",
+        "value": "120Hz"
+      }
+    ],
+    "images": [
+      "/upload/products/mobile/samsung-2.jpg",
+      "/upload/products/mobile/samsung-3.jpg"
+    ],
+    "tags": [
+      "samsung",
+      "android",
+      "galaxy",
+      "mobile"
+    ],
+    "ratingCount": 180,
+    "avgRating": 4.8,
+    "boughtCount": 350,
+    "minPrice": 1221.06,
+    "maxPrice": 1379.08,
+    "isPublished": true
+  },
+  {
+    "_id": {
+      "$oid": "6a15c02d5cf7fe2936178a6f"
+    },
+    "brandId": {
+      "$oid": "6a15bcd55cf7fe2936178a35"
+    },
+    "categoryId": {
+      "$oid": "6a15bdd25cf7fe2936178a42"
+    },
+    "defaultProductVariantId": {
+      "$oid": "6a18cc4089c5aa88d0dd6b3e"
+    },
+    "productVariantIds": [
+      {
+        "$oid": "6a18cc4089c5aa88d0dd6b3e"
+      },
+      {
+        "$oid": "6a18cc4089c5aa88d0dd6b3f"
+      }
+    ],
+    "variantIds": [
+      {
+        "$oid": "6a15bf3b5cf7fe2936178a51"
+      },
+      {
+        "$oid": "6a15bf3b5cf7fe2936178a5c"
+      },
+      {
+        "$oid": "6a15bf3b5cf7fe2936178a53"
+      },
+      {
+        "$oid": "6a15bf3b5cf7fe2936178a5d"
+      }
+    ],
+    "title": "Xiaomi Redmi Note 13 Pro",
+    "description": "Affordable and powerful Xiaomi smartphone with excellent battery life.",
+    "information": [
+      {
+        "key": "display",
+        "value": "6.67 inch AMOLED"
+      },
+      {
+        "key": "camera",
+        "value": "108MP Camera"
+      },
+      {
+        "key": "battery",
+        "value": "5100mAh"
+      },
+      {
+        "key": "charging",
+        "value": "67W Fast Charge"
+      }
+    ],
+    "images": [
+      "/upload/products/mobile/redmi-10.jpg",
+      "/upload/products/mobile/redmi-11.jpg"
+    ],
+    "tags": [
+      "xiaomi",
+      "redmi",
+      "android",
+      "mobile"
+    ],
+    "ratingCount": 130,
+    "avgRating": 4.6,
+    "boughtCount": 290,
+    "minPrice": 383.04,
+    "maxPrice": 474.05,
+    "isPublished": true
+  },
+  {
+    "_id": {
+      "$oid": "6a15c02d5cf7fe2936178a70"
+    },
+    "brandId": {
+      "$oid": "6a15bcd55cf7fe2936178a36"
+    },
+    "categoryId": {
+      "$oid": "6a15bdd25cf7fe2936178a43"
+    },
+    "defaultProductVariantId": {
+      "$oid": "6a18cc4089c5aa88d0dd6b40"
+    },
+    "productVariantIds": [
+      {
+        "$oid": "6a18cc4089c5aa88d0dd6b40"
+      }
+    ],
+    "variantIds": [
+      {
+        "$oid": "6a15bf3b5cf7fe2936178a59"
+      },
+      {
+        "$oid": "6a15bf3b5cf7fe2936178a5f"
+      }
+    ],
+    "title": "Acer Nitro 5 Gaming Laptop",
+    "description": "Powerful gaming laptop with RTX graphics and high refresh rate display.",
+    "information": [
+      {
+        "key": "cpu",
+        "value": "Intel Core i7"
+      },
+      {
+        "key": "gpu",
+        "value": "RTX 4060"
+      },
+      {
+        "key": "ram",
+        "value": "16GB"
+      },
+      {
+        "key": "storage",
+        "value": "1TB SSD"
+      }
+    ],
+    "images": [
+      "/upload/products/laptop/acer-laptop-1.jpg"
+    ],
+    "tags": [
+      "acer",
+      "gaming",
+      "laptop",
+      "rtx"
+    ],
+    "ratingCount": 88,
+    "avgRating": 4.5,
+    "boughtCount": 140,
+    "minPrice": 1231.12,
+    "maxPrice": 1231.12,
+    "isPublished": true
+  },
+  {
+    "_id": {
+      "$oid": "6a15c02d5cf7fe2936178a71"
+    },
+    "brandId": {
+      "$oid": "6a15bcd55cf7fe2936178a37"
+    },
+    "categoryId": {
+      "$oid": "6a15bdd25cf7fe2936178a43"
+    },
+    "defaultProductVariantId": {
+      "$oid": "6a18cc4089c5aa88d0dd6b41"
+    },
+    "productVariantIds": [
+      {
+        "$oid": "6a18cc4089c5aa88d0dd6b41"
+      }
+    ],
+    "variantIds": [
+      {
+        "$oid": "6a15bf3b5cf7fe2936178a56"
+      },
+      {
+        "$oid": "6a15bf3b5cf7fe2936178a5f"
+      }
+    ],
+    "title": "Dell XPS 15",
+    "description": "Premium ultrabook with stunning display and high performance for professionals.",
+    "information": [
+      {
+        "key": "display",
+        "value": "15.6 inch 4K"
+      },
+      {
+        "key": "cpu",
+        "value": "Intel Core i9"
+      },
+      {
+        "key": "ram",
+        "value": "32GB"
+      },
+      {
+        "key": "storage",
+        "value": "1TB SSD"
+      }
+    ],
+    "images": [
+      "/upload/products/laptop/dell-laptop-2.jpg"
+    ],
+    "tags": [
+      "dell",
+      "xps",
+      "laptop",
+      "ultrabook"
+    ],
+    "ratingCount": 64,
+    "avgRating": 4.7,
+    "boughtCount": 95,
+    "minPrice": 1819.09,
+    "maxPrice": 1819.09,
+    "isPublished": true
+  },
+  {
+    "_id": {
+      "$oid": "6a15c02d5cf7fe2936178a72"
+    },
+    "brandId": {
+      "$oid": "6a15bcd55cf7fe2936178a38"
+    },
+    "categoryId": {
+      "$oid": "6a15bdd25cf7fe2936178a43"
+    },
+    "defaultProductVariantId": null,
+    "productVariantIds": [],
+    "variantIds": [
+      {
+        "$oid": "6a15bf3b5cf7fe2936178a51"
+      },
+      {
+        "$oid": "6a15bf3b5cf7fe2936178a5e"
+      }
+    ],
+    "title": "HP Pavilion 15",
+    "description": "Reliable HP laptop for daily work and entertainment.",
+    "information": [
+      {
+        "key": "cpu",
+        "value": "Ryzen 7"
+      },
+      {
+        "key": "ram",
+        "value": "16GB"
+      },
+      {
+        "key": "storage",
+        "value": "512GB SSD"
+      },
+      {
+        "key": "display",
+        "value": "15.6 inch Full HD"
+      }
+    ],
+    "images": [
+      "/upload/products/laptop/hp-laptop-3.jpg"
+    ],
+    "tags": [
+      "hp",
+      "laptop",
+      "office"
+    ],
+    "ratingCount": 52,
+    "avgRating": 4.4,
+    "boughtCount": 110,
+    "minPrice": null,
+    "maxPrice": null,
+    "isPublished": true
+  },
+  {
+    "_id": {
+      "$oid": "6a15c02d5cf7fe2936178a73"
+    },
+    "brandId": {
+      "$oid": "6a15bcd55cf7fe2936178a39"
+    },
+    "categoryId": {
+      "$oid": "6a15bdd25cf7fe2936178a43"
+    },
+    "defaultProductVariantId": null,
+    "productVariantIds": [],
+    "variantIds": [
+      {
+        "$oid": "6a15bf3b5cf7fe2936178a51"
+      },
+      {
+        "$oid": "6a15bf3b5cf7fe2936178a59"
+      },
+      {
+        "$oid": "6a15bf3b5cf7fe2936178a5f"
+      }
+    ],
+    "title": "Lenovo Legion 5",
+    "description": "Gaming focused Lenovo laptop with excellent cooling and powerful hardware.",
+    "information": [
+      {
+        "key": "cpu",
+        "value": "Ryzen 9"
+      },
+      {
+        "key": "gpu",
+        "value": "RTX 4070"
+      },
+      {
+        "key": "ram",
+        "value": "32GB"
+      },
+      {
+        "key": "storage",
+        "value": "1TB SSD"
+      }
+    ],
+    "images": [
+      "/upload/products/laptop/lenovo-laptop-4.jpg",
+      "/upload/products/laptop/lenovo-laptop-5.jpg"
+    ],
+    "tags": [
+      "lenovo",
+      "gaming",
+      "legion",
+      "laptop"
+    ],
+    "ratingCount": 91,
+    "avgRating": 4.8,
+    "boughtCount": 170,
+    "minPrice": null,
+    "maxPrice": null,
+    "isPublished": true
+  },
+  {
+    "_id": {
+      "$oid": "6a15c02d5cf7fe2936178a74"
+    },
+    "brandId": {
+      "$oid": "6a15bcd55cf7fe2936178a3b"
+    },
+    "categoryId": {
+      "$oid": "6a15bdd25cf7fe2936178a44"
+    },
+    "defaultProductVariantId": null,
+    "productVariantIds": [],
+    "variantIds": [
+      {
+        "$oid": "6a15bf3b5cf7fe2936178a51"
+      }
+    ],
+    "title": "Canon EOS R6",
+    "description": "Professional mirrorless camera for photography and video production.",
+    "information": [
+      {
+        "key": "sensor",
+        "value": "24MP Full Frame"
+      },
+      {
+        "key": "video",
+        "value": "4K 60FPS"
+      },
+      {
+        "key": "stabilization",
+        "value": "IBIS"
+      },
+      {
+        "key": "connectivity",
+        "value": "WiFi + Bluetooth"
+      }
+    ],
+    "images": [
+      "/upload/products/camera/camera-canon-1.jpg",
+      "/upload/products/camera/camera-canon-2.jpg"
+    ],
+    "tags": [
+      "canon",
+      "camera",
+      "mirrorless"
+    ],
+    "ratingCount": 45,
+    "avgRating": 4.9,
+    "boughtCount": 60,
+    "minPrice": null,
+    "maxPrice": null,
+    "isPublished": true
+  },
+  {
+    "_id": {
+      "$oid": "6a15c02d5cf7fe2936178a75"
+    },
+    "brandId": {
+      "$oid": "6a15bcd55cf7fe2936178a3a"
+    },
+    "categoryId": {
+      "$oid": "6a15bdd25cf7fe2936178a44"
+    },
+    "defaultProductVariantId": null,
+    "productVariantIds": [],
+    "variantIds": [
+      {
+        "$oid": "6a15bf3b5cf7fe2936178a51"
+      },
+      {
+        "$oid": "6a15bf3b5cf7fe2936178a59"
+      }
+    ],
+    "title": "Sony Alpha A7 IV",
+    "description": "Advanced Sony mirrorless camera with exceptional autofocus system.",
+    "information": [
+      {
+        "key": "sensor",
+        "value": "33MP Full Frame"
+      },
+      {
+        "key": "video",
+        "value": "4K 60FPS"
+      },
+      {
+        "key": "battery",
+        "value": "NP-FZ100"
+      },
+      {
+        "key": "focus",
+        "value": "Real-time Eye AF"
+      }
+    ],
+    "images": [
+      "/upload/products/camera/camera-sony-7.jpg",
+      "/upload/products/camera/camera-sony-8.jpg"
+    ],
+    "tags": [
+      "sony",
+      "camera",
+      "alpha"
+    ],
+    "ratingCount": 72,
+    "avgRating": 4.9,
+    "boughtCount": 84,
+    "minPrice": null,
+    "maxPrice": null,
+    "isPublished": true
+  },
+  {
+    "_id": {
+      "$oid": "6a15c02d5cf7fe2936178a76"
+    },
+    "brandId": {
+      "$oid": "6a15bcd55cf7fe2936178a33"
+    },
+    "categoryId": {
+      "$oid": "6a15bdd25cf7fe2936178a46"
+    },
+    "defaultProductVariantId": {
+      "$oid": "6a18cc4089c5aa88d0dd6b42"
+    },
+    "productVariantIds": [
+      {
+        "$oid": "6a18cc4089c5aa88d0dd6b42"
+      }
+    ],
+    "variantIds": [
+      {
+        "$oid": "6a15bf3b5cf7fe2936178a52"
+      }
+    ],
+    "title": "Apple AirPods Pro 2",
+    "description": "Premium Apple wireless earbuds with active noise cancellation.",
+    "information": [
+      {
+        "key": "battery",
+        "value": "30 Hours"
+      },
+      {
+        "key": "noiseCancellation",
+        "value": "Active ANC"
+      },
+      {
+        "key": "connectivity",
+        "value": "Bluetooth 5.3"
+      },
+      {
+        "key": "waterResistance",
+        "value": "IP54"
+      }
+    ],
+    "images": [
+      "/upload/products/airpod/airpod-1.jpg",
+      "/upload/products/airpod/airpod-2.jpg"
+    ],
+    "tags": [
+      "apple",
+      "airpods",
+      "wireless"
+    ],
+    "ratingCount": 320,
+    "avgRating": 4.9,
+    "boughtCount": 510,
+    "minPrice": 314.1,
+    "maxPrice": 314.1,
+    "isPublished": true
+  },
+  {
+    "_id": {
+      "$oid": "6a15caa85cf7fe2936178aa4"
+    },
+    "brandId": {
+      "$oid": "6a15bcd55cf7fe2936178a3c"
+    },
+    "categoryId": {
+      "$oid": "6a15bdd25cf7fe2936178a46"
+    },
+    "defaultProductVariantId": null,
+    "productVariantIds": [],
+    "variantIds": [
+      {
+        "$oid": "6a15bf3b5cf7fe2936178a51"
+      },
+      {
+        "$oid": "6a15bf3b5cf7fe2936178a52"
+      }
+    ],
+    "title": "QCY T13 ANC Wireless Earbuds",
+    "description": "Affordable QCY wireless earbuds with active noise cancellation and long battery life.",
+    "information": [
+      {
+        "key": "battery",
+        "value": "40 Hours"
+      },
+      {
+        "key": "bluetooth",
+        "value": "Bluetooth 5.3"
+      },
+      {
+        "key": "noiseCancellation",
+        "value": "ANC"
+      },
+      {
+        "key": "waterResistance",
+        "value": "IPX5"
+      }
+    ],
+    "images": [
+      "/upload/products/airpod/airpod-3.jpg",
+      "/upload/products/airpod/airpod-4.jpg"
+    ],
+    "tags": [
+      "qcy",
+      "airpod",
+      "wireless",
+      "earbuds"
+    ],
+    "ratingCount": 140,
+    "avgRating": 4.5,
+    "boughtCount": 320,
+    "minPrice": null,
+    "maxPrice": null,
+    "isPublished": true
+  },
+  {
+    "_id": {
+      "$oid": "6a15caa85cf7fe2936178aa5"
+    },
+    "brandId": {
+      "$oid": "6a15bcd55cf7fe2936178a3f"
+    },
+    "categoryId": {
+      "$oid": "6a15bdd25cf7fe2936178a49"
+    },
+    "defaultProductVariantId": null,
+    "productVariantIds": [],
+    "variantIds": [
+      {
+        "$oid": "6a15bf3b5cf7fe2936178a51"
+      },
+      {
+        "$oid": "6a15bf3b5cf7fe2936178a53"
+      }
+    ],
+    "title": "JBL Charge 5 Speaker",
+    "description": "Portable JBL speaker with powerful bass and waterproof design.",
+    "information": [
+      {
+        "key": "battery",
+        "value": "20 Hours"
+      },
+      {
+        "key": "waterResistance",
+        "value": "IP67"
+      },
+      {
+        "key": "bluetooth",
+        "value": "Bluetooth 5.1"
+      },
+      {
+        "key": "outputPower",
+        "value": "40W"
+      }
+    ],
+    "images": [
+      "/upload/products/speaker/jspeaker-3.jpg",
+      "/upload/products/speaker/jspeaker-5.jpg"
+    ],
+    "tags": [
+      "jbl",
+      "speaker",
+      "portable",
+      "bluetooth"
+    ],
+    "ratingCount": 210,
+    "avgRating": 4.8,
+    "boughtCount": 430,
+    "minPrice": null,
+    "maxPrice": null,
+    "isPublished": true
+  },
+  {
+    "_id": {
+      "$oid": "6a15caa85cf7fe2936178aa6"
+    },
+    "brandId": {
+      "$oid": "6a15bcd55cf7fe2936178a3a"
+    },
+    "categoryId": {
+      "$oid": "6a15bdd25cf7fe2936178a48"
+    },
+    "defaultProductVariantId": {
+      "$oid": "6a18cc4089c5aa88d0dd6b43"
+    },
+    "productVariantIds": [
+      {
+        "$oid": "6a18cc4089c5aa88d0dd6b43"
+      }
+    ],
+    "variantIds": [
+      {
+        "$oid": "6a15bf3b5cf7fe2936178a51"
+      },
+      {
+        "$oid": "6a15bf3b5cf7fe2936178a59"
+      }
+    ],
+    "title": "Sony WH-1000XM5 Headphone",
+    "description": "Industry leading noise cancelling Sony wireless headphones.",
+    "information": [
+      {
+        "key": "battery",
+        "value": "30 Hours"
+      },
+      {
+        "key": "noiseCancellation",
+        "value": "Advanced ANC"
+      },
+      {
+        "key": "driver",
+        "value": "30mm"
+      },
+      {
+        "key": "bluetooth",
+        "value": "Bluetooth 5.2"
+      }
+    ],
+    "images": [
+      "/upload/products/headphone/headphone-7.jpg",
+      "/upload/products/headphone/headphone-8.jpg"
+    ],
+    "tags": [
+      "sony",
+      "headphone",
+      "wireless",
+      "anc"
+    ],
+    "ratingCount": 310,
+    "avgRating": 4.9,
+    "boughtCount": 510,
+    "minPrice": 399.61,
+    "maxPrice": 399.61,
+    "isPublished": true
+  },
+  {
+    "_id": {
+      "$oid": "6a15caa85cf7fe2936178aa7"
+    },
+    "brandId": {
+      "$oid": "6a15bcd55cf7fe2936178a3d"
+    },
+    "categoryId": {
+      "$oid": "6a15bdd25cf7fe2936178a4a"
+    },
+    "defaultProductVariantId": null,
+    "productVariantIds": [],
+    "variantIds": [
+      {
+        "$oid": "6a15bf3b5cf7fe2936178a51"
+      }
+    ],
+    "title": "Tesco RGB Gaming Keyboard",
+    "description": "Mechanical gaming keyboard with RGB lighting and fast response keys.",
+    "information": [
+      {
+        "key": "switchType",
+        "value": "Mechanical"
+      },
+      {
+        "key": "lighting",
+        "value": "RGB"
+      },
+      {
+        "key": "connectivity",
+        "value": "USB"
+      },
+      {
+        "key": "layout",
+        "value": "Full Size"
+      }
+    ],
+    "images": [
+      "/upload/products/accessories/keyboard/keyboard-1.jpg",
+      "/upload/products/accessories/keyboard/keyboard-2.jpg"
+    ],
+    "tags": [
+      "tesco",
+      "keyboard",
+      "gaming",
+      "rgb"
+    ],
+    "ratingCount": 70,
+    "avgRating": 4.3,
+    "boughtCount": 120,
+    "minPrice": null,
+    "maxPrice": null,
+    "isPublished": true
+  },
+  {
+    "_id": {
+      "$oid": "6a15caa85cf7fe2936178aa8"
+    },
+    "brandId": {
+      "$oid": "6a15bcd55cf7fe2936178a3e"
+    },
+    "categoryId": {
+      "$oid": "6a15bdd25cf7fe2936178a4a"
+    },
+    "defaultProductVariantId": null,
+    "productVariantIds": [],
+    "variantIds": [
+      {
+        "$oid": "6a15bf3b5cf7fe2936178a51"
+      },
+      {
+        "$oid": "6a15bf3b5cf7fe2936178a52"
+      }
+    ],
+    "title": "Hiska Wireless Mouse",
+    "description": "Ergonomic Hiska wireless mouse suitable for office and gaming use.",
+    "information": [
+      {
+        "key": "dpi",
+        "value": "1600 DPI"
+      },
+      {
+        "key": "battery",
+        "value": "Rechargeable"
+      },
+      {
+        "key": "connectivity",
+        "value": "2.4GHz Wireless"
+      },
+      {
+        "key": "design",
+        "value": "Ergonomic"
+      }
+    ],
+    "images": [
+      "/upload/products/accessories/mouse/mouse-5.jpg",
+      "/upload/products/accessories/mouse/mouse-9.jpg"
+    ],
+    "tags": [
+      "hiska",
+      "mouse",
+      "wireless"
+    ],
+    "ratingCount": 62,
+    "avgRating": 4.2,
+    "boughtCount": 95,
+    "minPrice": null,
+    "maxPrice": null,
+    "isPublished": true
+  },
+  {
+    "_id": {
+      "$oid": "6a15caa85cf7fe2936178aa9"
+    },
+    "brandId": {
+      "$oid": "6a15bcd55cf7fe2936178a40"
+    },
+    "categoryId": {
+      "$oid": "6a15bdd25cf7fe2936178a47"
+    },
+    "defaultProductVariantId": {
+      "$oid": "6a18cc4089c5aa88d0dd6b44"
+    },
+    "productVariantIds": [
+      {
+        "$oid": "6a18cc4089c5aa88d0dd6b44"
+      }
+    ],
+    "variantIds": [
+      {
+        "$oid": "6a15bf3b5cf7fe2936178a52"
+      },
+      {
+        "$oid": "6a15bf3b5cf7fe2936178a54"
+      }
+    ],
+    "title": "PlayStation 5 DualSense Controller",
+    "description": "Official PS5 wireless controller with adaptive triggers and haptic feedback.",
+    "information": [
+      {
+        "key": "connectivity",
+        "value": "Bluetooth + USB-C"
+      },
+      {
+        "key": "battery",
+        "value": "12 Hours"
+      },
+      {
+        "key": "compatibility",
+        "value": "PS5"
+      },
+      {
+        "key": "features",
+        "value": "Adaptive Trigger"
+      }
+    ],
+    "images": [
+      "/upload/products/gaming/control-game-10.jpg",
+      "/upload/products/gaming/control-game-11.jpg"
+    ],
+    "tags": [
+      "ps5",
+      "gaming",
+      "controller"
+    ],
+    "ratingCount": 190,
+    "avgRating": 4.8,
+    "boughtCount": 340,
+    "minPrice": 115.43,
+    "maxPrice": 115.43,
+    "isPublished": true
+  },
+  {
+    "_id": {
+      "$oid": "6a15caa85cf7fe2936178aaa"
+    },
+    "brandId": {
+      "$oid": "6a15bcd55cf7fe2936178a34"
+    },
+    "categoryId": {
+      "$oid": "6a15bdd25cf7fe2936178a45"
+    },
+    "defaultProductVariantId": null,
+    "productVariantIds": [],
+    "variantIds": [
+      {
+        "$oid": "6a15bf3b5cf7fe2936178a51"
+      },
+      {
+        "$oid": "6a15bf3b5cf7fe2936178a56"
+      }
+    ],
+    "title": "Samsung Galaxy Watch 6",
+    "description": "Premium Samsung smartwatch with fitness tracking and AMOLED display.",
+    "information": [
+      {
+        "key": "display",
+        "value": "1.5 inch AMOLED"
+      },
+      {
+        "key": "battery",
+        "value": "40 Hours"
+      },
+      {
+        "key": "healthFeatures",
+        "value": "ECG + Heart Rate"
+      },
+      {
+        "key": "waterResistance",
+        "value": "5ATM"
+      }
+    ],
+    "images": [
+      "/upload/products/smartwatch/watch-1.jpg",
+      "/upload/products/smartwatch/watch-2.jpg"
+    ],
+    "tags": [
+      "samsung",
+      "watch",
+      "smartwatch"
+    ],
+    "ratingCount": 150,
+    "avgRating": 4.7,
+    "boughtCount": 280,
+    "minPrice": null,
+    "maxPrice": null,
+    "isPublished": true
+  },
+  {
+    "_id": {
+      "$oid": "6a15caa85cf7fe2936178aab"
+    },
+    "brandId": {
+      "$oid": "6a15bcd55cf7fe2936178a35"
+    },
+    "categoryId": {
+      "$oid": "6a15bdd25cf7fe2936178a45"
+    },
+    "defaultProductVariantId": null,
+    "productVariantIds": [],
+    "variantIds": [
+      {
+        "$oid": "6a15bf3b5cf7fe2936178a51"
+      },
+      {
+        "$oid": "6a15bf3b5cf7fe2936178a53"
+      }
+    ],
+    "title": "Xiaomi Redmi Watch 4",
+    "description": "Affordable smartwatch with fitness tracking and long battery life.",
+    "information": [
+      {
+        "key": "display",
+        "value": "1.97 inch AMOLED"
+      },
+      {
+        "key": "battery",
+        "value": "20 Days"
+      },
+      {
+        "key": "sportsModes",
+        "value": "150+"
+      },
+      {
+        "key": "gps",
+        "value": "Built-in GPS"
+      }
+    ],
+    "images": [
+      "/upload/products/smartwatch/watch-3.jpg",
+      "/upload/products/smartwatch/watch-4.jpg"
+    ],
+    "tags": [
+      "xiaomi",
+      "watch",
+      "smartwatch"
+    ],
+    "ratingCount": 120,
+    "avgRating": 4.5,
+    "boughtCount": 230,
+    "minPrice": null,
+    "maxPrice": null,
+    "isPublished": true
+  },
+  {
+    "_id": {
+      "$oid": "6a15caa85cf7fe2936178aac"
+    },
+    "brandId": {
+      "$oid": "6a15bcd55cf7fe2936178a33"
+    },
+    "categoryId": {
+      "$oid": "6a15bdd25cf7fe2936178a4b"
+    },
+    "defaultProductVariantId": null,
+    "productVariantIds": [],
+    "variantIds": [
+      {
+        "$oid": "6a15bf3b5cf7fe2936178a52"
+      }
+    ],
+    "title": "Apple USB-C Fast Charger 30W",
+    "description": "Original Apple fast charger with USB-C power delivery support.",
+    "information": [
+      {
+        "key": "power",
+        "value": "30W"
+      },
+      {
+        "key": "port",
+        "value": "USB-C"
+      },
+      {
+        "key": "fastCharge",
+        "value": "Supported"
+      },
+      {
+        "key": "compatibility",
+        "value": "iPhone + iPad"
+      }
+    ],
+    "images": [
+      "/upload/products/accessories/charger/charger-1.jpg",
+      "/upload/products/accessories/charger/charger-2.jpg"
+    ],
+    "tags": [
+      "apple",
+      "charger",
+      "usb-c"
+    ],
+    "ratingCount": 98,
+    "avgRating": 4.6,
+    "boughtCount": 180,
+    "minPrice": null,
+    "maxPrice": null,
+    "isPublished": true
+  },
+  {
+    "_id": {
+      "$oid": "6a15caa85cf7fe2936178aad"
+    },
+    "brandId": {
+      "$oid": "6a15bcd55cf7fe2936178a34"
+    },
+    "categoryId": {
+      "$oid": "6a15bdd25cf7fe2936178a4b"
+    },
+    "defaultProductVariantId": null,
+    "productVariantIds": [],
+    "variantIds": [
+      {
+        "$oid": "6a15bf3b5cf7fe2936178a51"
+      }
+    ],
+    "title": "Samsung 20000mAh PowerBank",
+    "description": "High capacity Samsung powerbank with fast charging support.",
+    "information": [
+      {
+        "key": "capacity",
+        "value": "20000mAh"
+      },
+      {
+        "key": "output",
+        "value": "25W Fast Charge"
+      },
+      {
+        "key": "ports",
+        "value": "USB-C + USB-A"
+      },
+      {
+        "key": "display",
+        "value": "LED Indicator"
+      }
+    ],
+    "images": [
+      "/upload/products/accessories/powerbank/powerbank-1.jpg",
+      "/upload/products/accessories/powerbank/powerbank-2.jpg"
+    ],
+    "tags": [
+      "samsung",
+      "powerbank",
+      "battery"
+    ],
+    "ratingCount": 85,
+    "avgRating": 4.4,
+    "boughtCount": 160,
+    "minPrice": null,
+    "maxPrice": null,
+    "isPublished": true
+  },
+  {
+    "_id": {
+      "$oid": "6a15de545cf7fe2936178abc"
+    },
+    "brandId": {
+      "$oid": "6a15bcd55cf7fe2936178a36"
+    },
+    "categoryId": {
+      "$oid": "6a15bdd25cf7fe2936178a43"
+    },
+    "defaultProductVariantId": null,
+    "productVariantIds": [],
+    "variantIds": [
+      {
+        "$oid": "6a15bf3b5cf7fe2936178a51"
+      },
+      {
+        "$oid": "6a15bf3b5cf7fe2936178a59"
+      }
+    ],
+    "title": "ASUS ROG Strix G16",
+    "description": "High performance gaming laptop with RTX graphics and advanced cooling system.",
+    "information": [
+      {
+        "key": "cpu",
+        "value": "Intel Core i9"
+      },
+      {
+        "key": "gpu",
+        "value": "RTX 4070"
+      },
+      {
+        "key": "ram",
+        "value": "32GB"
+      },
+      {
+        "key": "storage",
+        "value": "1TB SSD"
+      }
+    ],
+    "images": [
+      "/upload/products/laptop/acer-laptop-1.jpg",
+      "/upload/products/laptop/lenovo-laptop-4.jpg"
+    ],
+    "tags": [
+      "asus",
+      "gaming",
+      "laptop",
+      "rog"
+    ],
+    "ratingCount": 120,
+    "avgRating": 4.8,
+    "boughtCount": 240,
+    "minPrice": null,
+    "maxPrice": null,
+    "isPublished": true
+  },
+  {
+    "_id": {
+      "$oid": "6a15de545cf7fe2936178abd"
+    },
+    "brandId": {
+      "$oid": "6a15bcd55cf7fe2936178a39"
+    },
+    "categoryId": {
+      "$oid": "6a15bdd25cf7fe2936178a4a"
+    },
+    "defaultProductVariantId": null,
+    "productVariantIds": [],
+    "variantIds": [
+      {
+        "$oid": "6a15bf3b5cf7fe2936178a51"
+      }
+    ],
+    "title": "Logitech G Pro X Superlight Mouse",
+    "description": "Ultra lightweight professional gaming mouse with HERO sensor.",
+    "information": [
+      {
+        "key": "dpi",
+        "value": "25600 DPI"
+      },
+      {
+        "key": "weight",
+        "value": "63g"
+      },
+      {
+        "key": "battery",
+        "value": "70 Hours"
+      },
+      {
+        "key": "connectivity",
+        "value": "Wireless"
+      }
+    ],
+    "images": [
+      "/upload/products/accessories/mouse/mouse-1.jpg",
+      "/upload/products/accessories/mouse/mouse-2.jpg"
+    ],
+    "tags": [
+      "mouse",
+      "gaming",
+      "wireless"
+    ],
+    "ratingCount": 210,
+    "avgRating": 4.9,
+    "boughtCount": 420,
+    "minPrice": null,
+    "maxPrice": null,
+    "isPublished": true
+  },
+  {
+    "_id": {
+      "$oid": "6a15de545cf7fe2936178abe"
+    },
+    "brandId": {
+      "$oid": "6a15bcd55cf7fe2936178a3d"
+    },
+    "categoryId": {
+      "$oid": "6a15bdd25cf7fe2936178a4a"
+    },
+    "defaultProductVariantId": null,
+    "productVariantIds": [],
+    "variantIds": [
+      {
+        "$oid": "6a15bf3b5cf7fe2936178a51"
+      }
+    ],
+    "title": "Razer BlackWidow V4 Keyboard",
+    "description": "Premium mechanical gaming keyboard with RGB lighting and programmable keys.",
+    "information": [
+      {
+        "key": "switchType",
+        "value": "Mechanical Green Switch"
+      },
+      {
+        "key": "lighting",
+        "value": "RGB Chroma"
+      },
+      {
+        "key": "layout",
+        "value": "Full Size"
+      },
+      {
+        "key": "connectivity",
+        "value": "USB-C"
+      }
+    ],
+    "images": [
+      "/upload/products/accessories/keyboard/keyboard-7.jpg",
+      "/upload/products/accessories/keyboard/keyboard-8.jpg"
+    ],
+    "tags": [
+      "keyboard",
+      "gaming",
+      "rgb"
+    ],
+    "ratingCount": 170,
+    "avgRating": 4.7,
+    "boughtCount": 310,
+    "minPrice": null,
+    "maxPrice": null,
+    "isPublished": true
+  },
+  {
+    "_id": {
+      "$oid": "6a15de545cf7fe2936178abf"
+    },
+    "brandId": {
+      "$oid": "6a15bcd55cf7fe2936178a34"
+    },
+    "categoryId": {
+      "$oid": "6a15bdd25cf7fe2936178a4e"
+    },
+    "defaultProductVariantId": null,
+    "productVariantIds": [],
+    "variantIds": [
+      {
+        "$oid": "6a15bf3b5cf7fe2936178a56"
+      }
+    ],
+    "title": "Anker 737 Power Bank",
+    "description": "High capacity premium power bank with ultra fast charging support.",
+    "information": [
+      {
+        "key": "capacity",
+        "value": "24000mAh"
+      },
+      {
+        "key": "output",
+        "value": "140W"
+      },
+      {
+        "key": "ports",
+        "value": "USB-C + USB-A"
+      },
+      {
+        "key": "display",
+        "value": "Smart Digital Display"
+      }
+    ],
+    "images": [
+      "/upload/products/accessories/powerbank/powerbank-7.jpg",
+      "/upload/products/accessories/powerbank/powerbank-5.jpg"
+    ],
+    "tags": [
+      "powerbank",
+      "fastcharge"
+    ],
+    "ratingCount": 144,
+    "avgRating": 4.8,
+    "boughtCount": 260,
+    "minPrice": null,
+    "maxPrice": null,
+    "isPublished": true
+  },
+  {
+    "_id": {
+      "$oid": "6a15de545cf7fe2936178ac0"
+    },
+    "brandId": {
+      "$oid": "6a15bcd55cf7fe2936178a3a"
+    },
+    "categoryId": {
+      "$oid": "6a15bdd25cf7fe2936178a44"
+    },
+    "defaultProductVariantId": null,
+    "productVariantIds": [],
+    "variantIds": [
+      {
+        "$oid": "6a15bf3b5cf7fe2936178a51"
+      }
+    ],
+    "title": "GoPro HERO 12 Black",
+    "description": "Advanced action camera with 5.3K recording and waterproof design.",
+    "information": [
+      {
+        "key": "video",
+        "value": "5.3K 60FPS"
+      },
+      {
+        "key": "waterResistance",
+        "value": "10m Waterproof"
+      },
+      {
+        "key": "stabilization",
+        "value": "HyperSmooth 6.0"
+      },
+      {
+        "key": "battery",
+        "value": "1720mAh"
+      }
+    ],
+    "images": [
+      "/upload/products/camera/camera-sony-7.jpg",
+      "/upload/products/camera/camera-sony-8.jpg"
+    ],
+    "tags": [
+      "camera",
+      "actioncam"
+    ],
+    "ratingCount": 132,
+    "avgRating": 4.8,
+    "boughtCount": 210,
+    "minPrice": null,
+    "maxPrice": null,
+    "isPublished": true
+  },
+  {
+    "_id": {
+      "$oid": "6a15de545cf7fe2936178ac1"
+    },
+    "brandId": {
+      "$oid": "6a15bcd55cf7fe2936178a40"
+    },
+    "categoryId": {
+      "$oid": "6a15bdd25cf7fe2936178a47"
+    },
+    "defaultProductVariantId": {
+      "$oid": "6a18cc4089c5aa88d0dd6b45"
+    },
+    "productVariantIds": [
+      {
+        "$oid": "6a18cc4089c5aa88d0dd6b45"
+      }
+    ],
+    "variantIds": [
+      {
+        "$oid": "6a15bf3b5cf7fe2936178a54"
+      },
+      {
+        "$oid": "6a15bf3b5cf7fe2936178a53"
+      }
+    ],
+    "title": "Nintendo Switch OLED",
+    "description": "Portable gaming console with vibrant OLED display.",
+    "information": [
+      {
+        "key": "display",
+        "value": "7 inch OLED"
+      },
+      {
+        "key": "storage",
+        "value": "64GB"
+      },
+      {
+        "key": "battery",
+        "value": "9 Hours"
+      },
+      {
+        "key": "connectivity",
+        "value": "WiFi + Bluetooth"
+      }
+    ],
+    "images": [
+      "/upload/products/gaming/game-1.jpg",
+      "/upload/products/gaming/game-2.jpg"
+    ],
+    "tags": [
+      "switch",
+      "gaming"
+    ],
+    "ratingCount": 260,
+    "avgRating": 4.9,
+    "boughtCount": 520,
+    "minPrice": 426.55,
+    "maxPrice": 426.55,
+    "isPublished": true
+  },
+  {
+    "_id": {
+      "$oid": "6a15de545cf7fe2936178ac2"
+    },
+    "brandId": {
+      "$oid": "6a15bcd55cf7fe2936178a3c"
+    },
+    "categoryId": {
+      "$oid": "6a15bdd25cf7fe2936178a48"
+    },
+    "defaultProductVariantId": {
+      "$oid": "6a18cc4089c5aa88d0dd6b42"
+    },
+    "productVariantIds": [
+      {
+        "$oid": "6a18cc4089c5aa88d0dd6b42"
+      }
+    ],
+    "variantIds": [
+      {
+        "$oid": "6a15bf3b5cf7fe2936178a52"
+      }
+    ],
+    "title": "Bose QuietComfort Ultra",
+    "description": "Premium wireless headphones with immersive spatial audio.",
+    "information": [
+      {
+        "key": "battery",
+        "value": "24 Hours"
+      },
+      {
+        "key": "noiseCancellation",
+        "value": "Advanced ANC"
+      },
+      {
+        "key": "bluetooth",
+        "value": "Bluetooth 5.3"
+      },
+      {
+        "key": "audio",
+        "value": "Spatial Audio"
+      }
+    ],
+    "images": [
+      "/upload/products/headphone/headphone-1.jpg",
+      "/upload/products/headphone/headphone-2.jpg"
+    ],
+    "tags": [
+      "headphone",
+      "wireless",
+      "anc"
+    ],
+    "ratingCount": 166,
+    "avgRating": 4.8,
+    "boughtCount": 280,
+    "minPrice": 314.1,
+    "maxPrice": 314.1,
+    "isPublished": true
+  },
+  {
+    "_id": {
+      "$oid": "6a15de545cf7fe2936178ac3"
+    },
+    "brandId": {
+      "$oid": "6a15bcd55cf7fe2936178a3a"
+    },
+    "categoryId": {
+      "$oid": "6a15bdd25cf7fe2936178a47"
+    },
+    "defaultProductVariantId": null,
+    "productVariantIds": [],
+    "variantIds": [
+      {
+        "$oid": "6a15bf3b5cf7fe2936178a59"
+      }
+    ],
+    "title": "DJI Mini 4 Pro Drone",
+    "description": "Compact professional drone with 4K HDR video and obstacle avoidance.",
+    "information": [
+      {
+        "key": "camera",
+        "value": "4K HDR"
+      },
+      {
+        "key": "flightTime",
+        "value": "34 Minutes"
+      },
+      {
+        "key": "range",
+        "value": "20km"
+      },
+      {
+        "key": "weight",
+        "value": "249g"
+      }
+    ],
+    "images": [
+      "/upload/products/camera/camera-canon-4.jpg",
+      "/upload/products/camera/camera-canon-5.jpg"
+    ],
+    "tags": [
+      "drone",
+      "camera"
+    ],
+    "ratingCount": 118,
+    "avgRating": 4.9,
+    "boughtCount": 190,
+    "minPrice": null,
+    "maxPrice": null,
+    "isPublished": true
+  },
+  {
+    "_id": {
+      "$oid": "6a15de545cf7fe2936178ac4"
+    },
+    "brandId": {
+      "$oid": "6a15bcd55cf7fe2936178a39"
+    },
+    "categoryId": {
+      "$oid": "6a15bdd25cf7fe2936178a4a"
+    },
+    "defaultProductVariantId": null,
+    "productVariantIds": [],
+    "variantIds": [
+      {
+        "$oid": "6a15bf3b5cf7fe2936178a59"
+      }
+    ],
+    "title": "MSI MAG 27QRF-QD Monitor",
+    "description": "High refresh rate gaming monitor with QHD resolution and IPS panel.",
+    "information": [
+      {
+        "key": "display",
+        "value": "27 inch QHD"
+      },
+      {
+        "key": "refreshRate",
+        "value": "165Hz"
+      },
+      {
+        "key": "responseTime",
+        "value": "1ms"
+      },
+      {
+        "key": "panel",
+        "value": "Rapid IPS"
+      }
+    ],
+    "images": [
+      "/upload/products/accessories/keyboard/keyboard-3.jpg",
+      "/upload/products/accessories/keyboard/keyboard-4.jpg"
+    ],
+    "tags": [
+      "monitor",
+      "gaming"
+    ],
+    "ratingCount": 102,
+    "avgRating": 4.7,
+    "boughtCount": 175,
+    "minPrice": null,
+    "maxPrice": null,
+    "isPublished": true
+  },
+  {
+    "_id": {
+      "$oid": "6a15de545cf7fe2936178ac5"
+    },
+    "brandId": {
+      "$oid": "6a15bcd55cf7fe2936178a33"
+    },
+    "categoryId": {
+      "$oid": "6a15bdd25cf7fe2936178a4b"
+    },
+    "defaultProductVariantId": null,
+    "productVariantIds": [],
+    "variantIds": [
+      {
+        "$oid": "6a15bf3b5cf7fe2936178a52"
+      }
+    ],
+    "title": "Amazon Kindle Paperwhite 2025",
+    "description": "Lightweight e-reader with glare-free display and waterproof body.",
+    "information": [
+      {
+        "key": "display",
+        "value": "6.8 inch E-Ink"
+      },
+      {
+        "key": "battery",
+        "value": "10 Weeks"
+      },
+      {
+        "key": "storage",
+        "value": "16GB"
+      },
+      {
+        "key": "waterResistance",
+        "value": "IPX8"
+      }
+    ],
+    "images": [
+      "/upload/products/mobile/iphone-13.jpg",
+      "/upload/products/mobile/iphone-15.jpg"
+    ],
+    "tags": [
+      "kindle",
+      "ebook"
+    ],
+    "ratingCount": 188,
+    "avgRating": 4.8,
+    "boughtCount": 360,
+    "minPrice": null,
+    "maxPrice": null,
+    "isPublished": true
+  },
+  {
+    "_id": {
+      "$oid": "6a15e0515cf7fe2936178ac6"
+    },
+    "brandId": {
+      "$oid": "6a15bcd55cf7fe2936178a35"
+    },
+    "categoryId": {
+      "$oid": "6a15bdd25cf7fe2936178a42"
+    },
+    "defaultProductVariantId": null,
+    "productVariantIds": [],
+    "variantIds": [
+      {
+        "$oid": "6a15bf3b5cf7fe2936178a51"
+      },
+      {
+        "$oid": "6a15bf3b5cf7fe2936178a57"
+      }
+    ],
+    "title": "Redmi 12",
+    "description": "redmi flagship smartphone with titanium design and advanced camera system.",
+    "information": [
+      {
+        "key": "display",
+        "value": "6 inch OLED"
+      },
+      {
+        "key": "camera",
+        "value": "44MP Triple Camera"
+      },
+      {
+        "key": "battery",
+        "value": "4422mAh"
+      },
+      {
+        "key": "chipset",
+        "value": "A15 Pro"
+      }
+    ],
+    "images": [
+      "/upload/products/mobile/redmi-7.jpg",
+      "/upload/products/mobile/redmi-6.jpg"
+    ],
+    "tags": [
+      "iphone",
+      "apple",
+      "mobile"
+    ],
+    "ratingCount": 300,
+    "avgRating": 4,
+    "boughtCount": 600,
+    "minPrice": null,
+    "maxPrice": null,
+    "isPublished": true
+  },
+  {
+    "_id": {
+      "$oid": "6a15e0515cf7fe2936178ac8"
+    },
+    "brandId": {
+      "$oid": "6a15bcd55cf7fe2936178a33"
+    },
+    "categoryId": {
+      "$oid": "6a15bdd25cf7fe2936178a48"
+    },
+    "defaultProductVariantId": null,
+    "productVariantIds": [],
+    "variantIds": [
+      {
+        "$oid": "6a15bf3b5cf7fe2936178a53"
+      },
+      {
+        "$oid": "6a15bf3b5cf7fe2936178a51"
+      }
+    ],
+    "title": "apple HeadPhone pro",
+    "description": "headphone with AMOLED display and fast charging.",
+    "information": [
+      {
+        "key": "display",
+        "value": "6.67 inch AMOLED"
+      },
+      {
+        "key": "audio",
+        "value": "23000mAh"
+      },
+      {
+        "key": "battery",
+        "value": "5100mAh"
+      },
+      {
+        "key": "charging",
+        "value": "67W Fast Charge"
+      }
+    ],
+    "images": [
+      "/upload/products/headphone/headphone-9.jpg",
+      "/upload/products/headphone/headphone-5.jpg"
+    ],
+    "tags": [
+      "Apple",
+      "iphone",
+      "headphone"
+    ],
+    "ratingCount": 300,
+    "avgRating": 4.8,
+    "boughtCount": 400,
+    "minPrice": null,
+    "maxPrice": null,
+    "isPublished": true
+  },
+  {
+    "_id": {
+      "$oid": "6a15e0515cf7fe2936178ac9"
+    },
+    "brandId": {
+      "$oid": "6a15bcd55cf7fe2936178a37"
+    },
+    "categoryId": {
+      "$oid": "6a15bdd25cf7fe2936178a43"
+    },
+    "defaultProductVariantId": null,
+    "productVariantIds": [],
+    "variantIds": [
+      {
+        "$oid": "6a15bf3b5cf7fe2936178a56"
+      }
+    ],
+    "title": "Dell Inspiron 15",
+    "description": "Reliable Dell laptop for office work and daily productivity.",
+    "information": [
+      {
+        "key": "cpu",
+        "value": "Intel Core i7"
+      },
+      {
+        "key": "ram",
+        "value": "16GB"
+      },
+      {
+        "key": "storage",
+        "value": "512GB SSD"
+      },
+      {
+        "key": "display",
+        "value": "15.6 inch FHD"
+      }
+    ],
+    "images": [
+      "/upload/products/laptop/dell-laptop-2.jpg",
+      "/upload/products/laptop/hp-laptop-3.jpg"
+    ],
+    "tags": [
+      "dell",
+      "laptop",
+      "office"
+    ],
+    "ratingCount": 142,
+    "avgRating": 4.5,
+    "boughtCount": 260,
+    "minPrice": null,
+    "maxPrice": null,
+    "isPublished": true
+  },
+  {
+    "_id": {
+      "$oid": "6a15e0515cf7fe2936178aca"
+    },
+    "brandId": {
+      "$oid": "6a15bcd55cf7fe2936178a38"
+    },
+    "categoryId": {
+      "$oid": "6a15bdd25cf7fe2936178a43"
+    },
+    "defaultProductVariantId": null,
+    "productVariantIds": [],
+    "variantIds": [
+      {
+        "$oid": "6a15bf3b5cf7fe2936178a51"
+      },
+      {
+        "$oid": "6a15bf3b5cf7fe2936178a59"
+      }
+    ],
+    "title": "HP Victus Gaming Laptop",
+    "description": "Modern HP gaming laptop with RTX graphics and cooling system.",
+    "information": [
+      {
+        "key": "cpu",
+        "value": "Ryzen 7"
+      },
+      {
+        "key": "gpu",
+        "value": "RTX 4060"
+      },
+      {
+        "key": "ram",
+        "value": "16GB"
+      },
+      {
+        "key": "storage",
+        "value": "1TB SSD"
+      }
+    ],
+    "images": [
+      "/upload/products/laptop/hp-laptop-3.jpg",
+      "/upload/products/laptop/lenovo-laptop-5.jpg"
+    ],
+    "tags": [
+      "hp",
+      "gaming",
+      "laptop"
+    ],
+    "ratingCount": 160,
+    "avgRating": 4.7,
+    "boughtCount": 310,
+    "minPrice": null,
+    "maxPrice": null,
+    "isPublished": true
+  },
+  {
+    "_id": {
+      "$oid": "6a15e0515cf7fe2936178acb"
+    },
+    "brandId": {
+      "$oid": "6a15bcd55cf7fe2936178a3f"
+    },
+    "categoryId": {
+      "$oid": "6a15bdd25cf7fe2936178a49"
+    },
+    "defaultProductVariantId": null,
+    "productVariantIds": [],
+    "variantIds": [
+      {
+        "$oid": "6a15bf3b5cf7fe2936178a54"
+      }
+    ],
+    "title": "JBL Flip 6",
+    "description": "Portable waterproof Bluetooth speaker with powerful bass.",
+    "information": [
+      {
+        "key": "battery",
+        "value": "12 Hours"
+      },
+      {
+        "key": "waterResistance",
+        "value": "IP67"
+      },
+      {
+        "key": "bluetooth",
+        "value": "Bluetooth 5.1"
+      },
+      {
+        "key": "outputPower",
+        "value": "30W"
+      }
+    ],
+    "images": [
+      "/upload/products/speaker/jspeaker-1.jpg",
+      "/upload/products/speaker/jspeaker-2.jpg"
+    ],
+    "tags": [
+      "jbl",
+      "speaker",
+      "bluetooth"
+    ],
+    "ratingCount": 210,
+    "avgRating": 4.8,
+    "boughtCount": 430,
+    "minPrice": null,
+    "maxPrice": null,
+    "isPublished": true
+  },
+  {
+    "_id": {
+      "$oid": "6a15e0515cf7fe2936178acc"
+    },
+    "brandId": {
+      "$oid": "6a15bcd55cf7fe2936178a35"
+    },
+    "categoryId": {
+      "$oid": "6a15bdd25cf7fe2936178a48"
+    },
+    "defaultProductVariantId": null,
+    "productVariantIds": [],
+    "variantIds": [
+      {
+        "$oid": "6a15bf3b5cf7fe2936178a51"
+      },
+      {
+        "$oid": "6a15bf3b5cf7fe2936178a52"
+      }
+    ],
+    "title": "Xiaomi Redmi AirPode pro",
+    "description": "Budget wireless earbuds with ENC noise reduction and long battery life.",
+    "information": [
+      {
+        "key": "battery",
+        "value": "40 Hours"
+      },
+      {
+        "key": "bluetooth",
+        "value": "Bluetooth 5.3"
+      },
+      {
+        "key": "noiseCancellation",
+        "value": "ENC"
+      },
+      {
+        "key": "driver",
+        "value": "7.2mm"
+      }
+    ],
+    "images": [
+      "/upload/products/airpod/airpod-6.jpg",
+      "/upload/products/airpod/airpod-9.jpg"
+    ],
+    "tags": [
+      "redmi",
+      "airpod",
+      "wireless"
+    ],
+    "ratingCount": 185,
+    "avgRating": 4.5,
+    "boughtCount": 390,
+    "minPrice": null,
+    "maxPrice": null,
+    "isPublished": true
+  },
+  {
+    "_id": {
+      "$oid": "6a15e0515cf7fe2936178acd"
+    },
+    "brandId": {
+      "$oid": "6a15bcd55cf7fe2936178a40"
+    },
+    "categoryId": {
+      "$oid": "6a15bdd25cf7fe2936178a4f"
+    },
+    "defaultProductVariantId": null,
+    "productVariantIds": [],
+    "variantIds": [
+      {
+        "$oid": "6a15bf3b5cf7fe2936178a51"
+      },
+      {
+        "$oid": "6a15bf3b5cf7fe2936178a53"
+      }
+    ],
+    "title": "PS5  Controller",
+    "description": "Official PlayStation 5 wireless controller with adaptive triggers.",
+    "information": [
+      {
+        "key": "connectivity",
+        "value": "Bluetooth + USB-C"
+      },
+      {
+        "key": "battery",
+        "value": "12 Hours"
+      },
+      {
+        "key": "features",
+        "value": "Adaptive Trigger"
+      },
+      {
+        "key": "compatibility",
+        "value": "PS5"
+      }
+    ],
+    "images": [
+      "/upload/products/gaming/control-game-11.jpg",
+      "/upload/products/gaming/control-game-13.jpg"
+    ],
+    "tags": [
+      "ps5",
+      "controller",
+      "gaming"
+    ],
+    "ratingCount": 255,
+    "avgRating": 4.8,
+    "boughtCount": 530,
+    "minPrice": null,
+    "maxPrice": null,
+    "isPublished": true
+  },
+  {
+    "_id": {
+      "$oid": "6a15e0515cf7fe2936178acf"
+    },
+    "brandId": {
+      "$oid": "6a15bcd55cf7fe2936178a34"
+    },
+    "categoryId": {
+      "$oid": "6a15bdd25cf7fe2936178a4d"
+    },
+    "defaultProductVariantId": null,
+    "productVariantIds": [],
+    "variantIds": [
+      {
+        "$oid": "6a15bf3b5cf7fe2936178a52"
+      }
+    ],
+    "title": "Samsung 25W USB-C Charger",
+    "description": "Compact Samsung fast charger with USB-C power delivery support.",
+    "information": [
+      {
+        "key": "power",
+        "value": "25W"
+      },
+      {
+        "key": "port",
+        "value": "USB-C"
+      },
+      {
+        "key": "fastCharge",
+        "value": "Fast Charging"
+      },
+      {
+        "key": "compatibility",
+        "value": "Galaxy Devices"
+      }
+    ],
+    "images": [
+      "/upload/products/accessories/charger/charger-1.jpg",
+      "/upload/products/accessories/charger/charger-2.jpg"
+    ],
+    "tags": [
+      "charger",
+      "samsung",
+      "usb-c"
+    ],
+    "ratingCount": 140,
+    "avgRating": 4.6,
+    "boughtCount": 290,
+    "minPrice": null,
+    "maxPrice": null,
+    "isPublished": true
+  },
+  {
+    "_id": {
+      "$oid": "6a1614d55cf7fe2936178b14"
+    },
+    "brandId": {
+      "$oid": "6a15bcd55cf7fe2936178a33"
+    },
+    "categoryId": {
+      "$oid": "6a15bdd25cf7fe2936178a42"
+    },
+    "defaultProductVariantId": {
+      "$oid": "6a18cc4089c5aa88d0dd6b46"
+    },
+    "productVariantIds": [
+      {
+        "$oid": "6a18cc4089c5aa88d0dd6b46"
+      }
+    ],
+    "variantIds": [
+      {
+        "$oid": "6a15bf3b5cf7fe2936178a58"
+      },
+      {
+        "$oid": "6a15bf3b5cf7fe2936178a57"
+      }
+    ],
+    "title": "Apple iPhone 17 Pro Max",
+    "description": "Latest Apple flagship smartphone with premium titanium design, advanced camera system and powerful A17 chip.",
+    "information": [
+      {
+        "key": "display",
+        "value": "6.7 inch OLED"
+      },
+      {
+        "key": "camera",
+        "value": "48MP Triple Camera"
+      },
+      {
+        "key": "battery",
+        "value": "4500mAh"
+      },
+      {
+        "key": "chipset",
+        "value": "A17 Pro"
+      }
+    ],
+    "images": [
+      "/upload/products/mobile/iphone-17.jpg",
+      "/upload/products/mobile/iphone-13.jpg"
+    ],
+    "tags": [
+      "apple",
+      "iphone",
+      "mobile",
+      "ios",
+      "flagship"
+    ],
+    "ratingCount": 280,
+    "avgRating": 4.9,
+    "boughtCount": 450,
+    "minPrice": 1691.06,
+    "maxPrice": 1691.06,
+    "isPublished": true
+  },
+  {
+    "_id": {
+      "$oid": "6a161cf05cf7fe2936178b15"
+    },
+    "brandId": {
+      "$oid": "6a15bcd55cf7fe2936178a33"
+    },
+    "categoryId": {
+      "$oid": "6a15bdd25cf7fe2936178a45"
+    },
+    "defaultProductVariantId": {
+      "$oid": "6a18cc4089c5aa88d0dd6b47"
+    },
+    "productVariantIds": [
+      {
+        "$oid": "6a18cc4089c5aa88d0dd6b47"
+      }
+    ],
+    "variantIds": [
+      {
+        "$oid": "6a15bf3b5cf7fe2936178a52"
+      },
+      {
+        "$oid": "6a15bf3b5cf7fe2936178a57"
+      }
+    ],
+    "title": "Apple Whatch pro5",
+    "description": "Affordable smartwatch with fitness tracking and long battery life.",
+    "information": [
+      {
+        "key": "display",
+        "value": "1.97 inch AMOLED"
+      },
+      {
+        "key": "battery",
+        "value": "30 Days"
+      },
+      {
+        "key": "sportsModes",
+        "value": "160+"
+      },
+      {
+        "key": "gps",
+        "value": "Built-in GPS"
+      }
+    ],
+    "images": [
+      "/upload/products/smartwatch/watch-13.jpg",
+      "/upload/products/smartwatch/watch-14.jpg"
+    ],
+    "tags": [
+      "xiaomi",
+      "watch",
+      "smartwatch"
+    ],
+    "ratingCount": 180,
+    "avgRating": 4.8,
+    "boughtCount": 250,
+    "minPrice": 180.5,
+    "maxPrice": 180.5,
+    "isPublished": true
+  }
+]

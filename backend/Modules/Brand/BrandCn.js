@@ -3,21 +3,14 @@ import Brand from "./BrandMd.js";
 import Product from "../Product/ProductMd.js";
 import { __dirname } from "../../app.js";
 import fs from "fs";
+
 export const getAll = catchAsync(async (req, res, next) => {
-  console.log({
-      ...(req.query?.search
-        ? { title: { $regex: req.query.search, $options: "i" } }
-        : {}),
-      ...(req.role == "admin" || req.role == "superAdmin"
-        ? {}
-        : { isPublished: true }),
-    })
   const features = new ApiFeatures(Brand, req.query, req.role)
     .addManualFilters({
       ...(req.query?.search
         ? { title: { $regex: req.query.search, $options: "i" } }
         : {}),
-      ...(req.role == "admin" || req.role == "superAdmin"
+      ...(req.role === "admin" || req.role === "superAdmin"
         ? {}
         : { isPublished: true }),
     })
@@ -27,15 +20,15 @@ export const getAll = catchAsync(async (req, res, next) => {
     .paginate()
     .populate();
   const result = await features.execute();
-  console.log(result)
   return res.status(200).json(result);
 });
+
 export const getOne = catchAsync(async (req, res, next) => {
   const features = new ApiFeatures(Brand, req.query, req.role)
     .addManualFilters(
-      req.role == "admin" || req.role == "superAdmin"
+      req.role === "admin" || req.role === "superAdmin"
         ? { _id: req.params.id }
-        : { $and: [{ _id: req.params.id }, { isPublished: true }] }
+        : { $and: [{ _id: req.params.id }, { isPublished: true }] },
     )
     .filter()
     .sort()
@@ -54,12 +47,16 @@ export const create = catchAsync(async (req, res, next) => {
     data: brand,
   });
 });
+
 export const update = catchAsync(async (req, res, next) => {
   const brand = await Brand.findByIdAndUpdate(req.params.id, req.body, {
-    runValidator: true,
+    runValidators: true, // FIX #7: was "runValidator"
     new: true,
   });
-  return res.status(201).json({
+  if (!brand) {
+    return next(new HandleERROR("brand not found", 404));
+  }
+  return res.status(200).json({
     success: true,
     message: "brand updated successfully",
     data: brand,
@@ -67,20 +64,23 @@ export const update = catchAsync(async (req, res, next) => {
 });
 
 export const remove = catchAsync(async (req, res, next) => {
-  const product = await Product.find({ brandId: req.params.id });
-  if (product.length > 0) {
+  const products = await Product.find({ brandId: req.params.id });
+  if (products.length > 0) {
     return next(
       new HandleERROR(
-        "this Brand contain some product you can not deleted",
-        400
-      )
+        "this brand contains products and cannot be deleted",
+        400,
+      ),
     );
   }
   const brand = await Brand.findByIdAndDelete(req.params.id);
+  if (!brand) {
+    return next(new HandleERROR("brand not found", 404));
+  }
   if (fs.existsSync(`${__dirname}/Public/${brand.image}`)) {
     fs.unlinkSync(`${__dirname}/Public/${brand.image}`);
   }
-  return res.status(201).json({
+  return res.status(200).json({
     success: true,
     message: "brand deleted successfully",
     data: brand,

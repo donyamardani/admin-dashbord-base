@@ -11,11 +11,11 @@ import {
 
 export default function Sidebar({ open, setOpen }) {
   const menu = [
-    { name: "خانه", path: "/", icon: <FiHome /> },
-    { name: "محصولات", path: "/product", icon: <FiBox /> },
-    { name: "دسته بندی", path: "/category", icon: <FiLayers /> },
-    { name: "برند", path: "/brand", icon: <FiTag /> },
-    { name: "کاربران", path: "/user", icon: <FiUsers /> },
+    { name: "خانه", path: "/dashboard", icon: <FiHome /> },
+    { name: "محصولات", path: "/dashboard/product", icon: <FiBox /> },
+    { name: "دسته بندی", path: "/dashboard/category", icon: <FiLayers /> },
+    { name: "برند", path: "/dashboard/brand", icon: <FiTag /> },
+    { name: "کاربران", path: "/dashboard/user", icon: <FiUsers /> },
   ];
 
   return (

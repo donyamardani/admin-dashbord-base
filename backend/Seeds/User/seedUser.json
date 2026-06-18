@@ -1,0 +1,406 @@
+[{
+  "_id": {
+    "$oid": "69933fb370ac0d293fe5d68c"
+  },
+  "phoneNumber": "09155791755",
+  "password": "$2b$10$NWchclhFVj.iYJVKuXJXO.pGIylS7BnJHa8bN9Uk7.vFQaI/QTc4q",
+  "fullName": "DonyaMardani",
+  "cartId": {
+    "$oid": "69933fb370ac0d293fe5d68e"
+  },
+  "addressIds": [
+    {
+      "$oid": "6a0a07110b5e1867f39c8760"
+    }
+  ],
+  "favoriteProductIds": [],
+  "boughtProductIds": [],
+  "role": "superAdmin",
+  "isActive": true,
+  "ratedProductIds": [],
+  "createdAt": {
+    "$date": "2026-02-16T16:02:59.021Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-08T17:27:57.155Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69fcfe5e12abfd4ab1894360"
+  },
+  "phoneNumber": "09152923669",
+  "password": "",
+  "fullName": "",
+  "cartId": {
+    "$oid": "69fcfe5e12abfd4ab1894362"
+  },
+  "addressIds": [
+    {
+      "$oid": "6a0a07110b5e1867f39c8761"
+    }
+  ],
+  "favoriteProductIds": [],
+  "boughtProductIds": [],
+  "role": "user",
+  "isActive": true,
+  "ratedProductIds": [],
+  "createdAt": {
+    "$date": "2026-05-07T21:04:30.179Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-07T21:04:30.201Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a074253d0b97dc6943f6978"
+  },
+  "phoneNumber": "09157088678",
+  "password": "$2b$10$hlWovLMwAfexpwfHKeiv7OF6DHCyE.RwBulNgtnsyDvzszN8lvv5e",
+  "fullName": "shirin",
+  "cartId": {
+    "$oid": "6a074253d0b97dc6943f697a"
+  },
+  "addressIds": [
+    {
+      "$oid": "6a0a07110b5e1867f39c8762"
+    }
+  ],
+  "favoriteProductIds": [],
+  "boughtProductIds": [],
+  "role": "user",
+  "isActive": true,
+  "ratedProductIds": [],
+  "createdAt": {
+    "$date": "2026-05-15T15:57:07.339Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-15T16:02:44.096Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a0a046d0b5e1867f39c8747"
+  },
+  "name": "Ali Ahmadi",
+  "email": "ali@test.com",
+  "password": "$2b$10$hashedpassword",
+  "role": "user",
+  "isVerified": true
+},
+{
+  "_id": {
+    "$oid": "6a20aa000000000000000001"
+  },
+  "phoneNumber": "09120000001",
+  "password": "",
+  "fullName": "Admin User",
+  "cartId": null,
+  "addressIds": [],
+  "favoriteProductIds": [],
+  "boughtProductIds": [],
+  "ratedProductIds": [],
+  "role": "admin",
+  "isActive": true
+},
+{
+  "_id": {
+    "$oid": "6a20aa000000000000000002"
+  },
+  "phoneNumber": "09120000002",
+  "password": "",
+  "fullName": "Ali Ahmadi",
+  "cartId": null,
+  "addressIds": [],
+  "favoriteProductIds": [
+    {
+      "$oid": "6a09f9740b5e1867f39c8722"
+    }
+  ],
+  "boughtProductIds": [
+    {
+      "$oid": "6a09f9740b5e1867f39c8722"
+    }
+  ],
+  "ratedProductIds": [],
+  "role": "user",
+  "isActive": true
+},
+{
+  "_id": {
+    "$oid": "6a20aa000000000000000003"
+  },
+  "phoneNumber": "09120000003",
+  "password": "",
+  "fullName": "Sara Mohammadi",
+  "cartId": null,
+  "addressIds": [],
+  "favoriteProductIds": [
+    {
+      "$oid": "6a09f9740b5e1867f39c8723"
+    }
+  ],
+  "boughtProductIds": [],
+  "ratedProductIds": [],
+  "role": "user",
+  "isActive": true
+},
+{
+  "_id": {
+    "$oid": "6a0a06020b5e1867f39c874e"
+  },
+  "phoneNumber": "09120000004",
+  "password": "",
+  "fullName": "Reza Karimi",
+  "cartId": null,
+  "addressIds": [],
+  "favoriteProductIds": [],
+  "boughtProductIds": [],
+  "ratedProductIds": [],
+  "role": "user",
+  "isActive": true
+},
+{
+  "_id": {
+    "$oid": "6a0a06020b5e1867f39c874f"
+  },
+  "phoneNumber": "09120000005",
+  "password": "",
+  "fullName": "Nima Hosseini",
+  "cartId": null,
+  "addressIds": [],
+  "favoriteProductIds": [],
+  "boughtProductIds": [],
+  "ratedProductIds": [],
+  "role": "user",
+  "isActive": true
+},
+{
+  "_id": {
+    "$oid": "6a0a06020b5e1867f39c8750"
+  },
+  "phoneNumber": "09120000006",
+  "password": "",
+  "fullName": "Mahsa Moradi",
+  "cartId": null,
+  "addressIds": [],
+  "favoriteProductIds": [],
+  "boughtProductIds": [],
+  "ratedProductIds": [],
+  "role": "user",
+  "isActive": true
+},
+{
+  "_id": {
+    "$oid": "6a0a06020b5e1867f39c8751"
+  },
+  "phoneNumber": "09120000007",
+  "password": "",
+  "fullName": "Saeed Jafari",
+  "cartId": null,
+  "addressIds": [],
+  "favoriteProductIds": [],
+  "boughtProductIds": [],
+  "ratedProductIds": [],
+  "role": "user",
+  "isActive": true
+},
+{
+  "_id": {
+    "$oid": "6a0a06020b5e1867f39c8752"
+  },
+  "phoneNumber": "09120000008",
+  "password": "",
+  "fullName": "Hamed Safari",
+  "cartId": null,
+  "addressIds": [],
+  "favoriteProductIds": [],
+  "boughtProductIds": [],
+  "ratedProductIds": [],
+  "role": "user",
+  "isActive": true
+},
+{
+  "_id": {
+    "$oid": "6a0a06020b5e1867f39c8753"
+  },
+  "phoneNumber": "09120000009",
+  "password": "",
+  "fullName": "Maryam Rahimi",
+  "cartId": null,
+  "addressIds": [],
+  "favoriteProductIds": [],
+  "boughtProductIds": [],
+  "ratedProductIds": [],
+  "role": "user",
+  "isActive": true
+},
+{
+  "_id": {
+    "$oid": "6a0a06020b5e1867f39c8754"
+  },
+  "phoneNumber": "09120000010",
+  "password": "",
+  "fullName": "Amir Ghasemi",
+  "cartId": null,
+  "addressIds": [],
+  "favoriteProductIds": [],
+  "boughtProductIds": [],
+  "ratedProductIds": [],
+  "role": "user",
+  "isActive": true
+},
+{
+  "_id": {
+    "$oid": "6a0a06020b5e1867f39c8755"
+  },
+  "phoneNumber": "09120000011",
+  "password": "",
+  "fullName": "Farhad Shams",
+  "cartId": null,
+  "addressIds": [],
+  "favoriteProductIds": [],
+  "boughtProductIds": [],
+  "ratedProductIds": [],
+  "role": "user",
+  "isActive": true
+},
+{
+  "_id": {
+    "$oid": "6a0a06020b5e1867f39c8756"
+  },
+  "phoneNumber": "09120000012",
+  "password": "",
+  "fullName": "Narges Ahmadi",
+  "cartId": null,
+  "addressIds": [],
+  "favoriteProductIds": [],
+  "boughtProductIds": [],
+  "ratedProductIds": [],
+  "role": "user",
+  "isActive": true
+},
+{
+  "_id": {
+    "$oid": "6a0a06020b5e1867f39c8757"
+  },
+  "phoneNumber": "09120000013",
+  "password": "",
+  "fullName": "Hossein Akbari",
+  "cartId": null,
+  "addressIds": [],
+  "favoriteProductIds": [],
+  "boughtProductIds": [],
+  "ratedProductIds": [],
+  "role": "user",
+  "isActive": true
+},
+{
+  "_id": {
+    "$oid": "6a0a06020b5e1867f39c8758"
+  },
+  "phoneNumber": "09120000014",
+  "password": "",
+  "fullName": "Mina Jalili",
+  "cartId": null,
+  "addressIds": [],
+  "favoriteProductIds": [],
+  "boughtProductIds": [],
+  "ratedProductIds": [],
+  "role": "user",
+  "isActive": true
+},
+{
+  "_id": {
+    "$oid": "6a0a06020b5e1867f39c8759"
+  },
+  "phoneNumber": "09120000015",
+  "password": "",
+  "fullName": "Pouya Mohammadi",
+  "cartId": null,
+  "addressIds": [],
+  "favoriteProductIds": [],
+  "boughtProductIds": [],
+  "ratedProductIds": [],
+  "role": "user",
+  "isActive": true
+},
+{
+  "_id": {
+    "$oid": "6a0a06020b5e1867f39c875a"
+  },
+  "phoneNumber": "09120000016",
+  "password": "",
+  "fullName": "Saman Ebrahimi",
+  "cartId": null,
+  "addressIds": [],
+  "favoriteProductIds": [],
+  "boughtProductIds": [],
+  "ratedProductIds": [],
+  "role": "user",
+  "isActive": true
+},
+{
+  "_id": {
+    "$oid": "6a0a06020b5e1867f39c875b"
+  },
+  "phoneNumber": "09120000017",
+  "password": "",
+  "fullName": "Elham Karimi",
+  "cartId": null,
+  "addressIds": [],
+  "favoriteProductIds": [],
+  "boughtProductIds": [],
+  "ratedProductIds": [],
+  "role": "user",
+  "isActive": true
+},
+{
+  "_id": {
+    "$oid": "6a0a06020b5e1867f39c875c"
+  },
+  "phoneNumber": "09120000018",
+  "password": "",
+  "fullName": "Arman Yazdani",
+  "cartId": null,
+  "addressIds": [],
+  "favoriteProductIds": [],
+  "boughtProductIds": [],
+  "ratedProductIds": [],
+  "role": "user",
+  "isActive": true
+},
+{
+  "_id": {
+    "$oid": "6a0a06020b5e1867f39c875d"
+  },
+  "phoneNumber": "09120000019",
+  "password": "",
+  "fullName": "Shima Ranjbar",
+  "cartId": null,
+  "addressIds": [],
+  "favoriteProductIds": [],
+  "boughtProductIds": [],
+  "ratedProductIds": [],
+  "role": "user",
+  "isActive": true
+},
+{
+  "_id": {
+    "$oid": "6a0a06020b5e1867f39c875e"
+  },
+  "phoneNumber": "09120000020",
+  "password": "",
+  "fullName": "Kian Rostami",
+  "cartId": null,
+  "addressIds": [],
+  "favoriteProductIds": [],
+  "boughtProductIds": [],
+  "ratedProductIds": [],
+  "role": "user",
+  "isActive": true
+}]

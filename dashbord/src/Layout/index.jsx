@@ -8,6 +8,7 @@ import ScrollToTop from "../Utils/ScrollToTop";
 export default function Layout() {
   const [open, setOpen] = useState(false);
 
+ 
   return (
     <div className="min-h-screen bg-gray-100">
       <ScrollToTop />

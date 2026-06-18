@@ -1,0 +1,179 @@
+[
+{
+"_id":{"$oid":"6a3000000000000000000001"},
+"userId":{"$oid":"69933fb370ac0d293fe5d68c"},
+"items":[
+{
+"productId":{"$oid":"6a09f9740b5e1867f39c8723"},
+"productVariantId":{"$oid":"6a0b11000b5e1867f39c8801"},
+"title":"Apple iPhone 15 Pro",
+"image":"/upload/products/iphone15-1.jpg",
+"price":999,
+"quantity":1
+}
+],
+"totalPrice":999,
+"totalPriceAfterDiscount":899,
+"discountCode":{"code":"WELCOME10","percentage":10},
+"freeShipping":true,
+"address":{
+"fullName":"Donya Mardani",
+"phone":"09155791755",
+"province":"Tehran",
+"city":"Tehran",
+"postalCode":"1234567890",
+"addressLine":"Valiasr Street"
+},
+"status":"paid",
+"authority":"A10001",
+"refId":"R10001"
+},
+
+{
+"_id":{"$oid":"6a3000000000000000000002"},
+"userId":{"$oid":"69fcfe5e12abfd4ab1894360"},
+"items":[
+{
+"productId":{"$oid":"6a09f9800b5e1867f39c8725"},
+"productVariantId":{"$oid":"6a0b11000b5e1867f39c8802"},
+"title":"Samsung Galaxy S24",
+"image":"/upload/products/s24-1.jpg",
+"price":850,
+"quantity":1
+}
+],
+"totalPrice":850,
+"totalPriceAfterDiscount":850,
+"freeShipping":false,
+"address":{
+"fullName":"Test User",
+"phone":"09152923669",
+"province":"Isfahan",
+"city":"Isfahan",
+"postalCode":"8174632211",
+"addressLine":"Chaharbagh Street"
+},
+"status":"pending",
+"authority":"",
+"refId":""
+},
+
+{
+"_id":{"$oid":"6a3000000000000000000003"},
+"userId":{"$oid":"6a074253d0b97dc6943f6978"},
+"items":[
+{
+"productId":{"$oid":"6a09f9900b5e1867f39c8727"},
+"productVariantId":{"$oid":"6a0b11000b5e1867f39c8803"},
+"title":"Sony WH-1000XM5 Headphones",
+"image":"/upload/products/sony-headphone-1.jpg",
+"price":399,
+"quantity":2
+}
+],
+"totalPrice":798,
+"totalPriceAfterDiscount":750,
+"discountCode":{"code":"SPRING20","percentage":6},
+"freeShipping":true,
+"address":{
+"fullName":"Shirin",
+"phone":"09157088678",
+"province":"Shiraz",
+"city":"Shiraz",
+"postalCode":"7134567890",
+"addressLine":"Afif Abad Street"
+},
+"status":"delivered",
+"authority":"A10003",
+"refId":"R10003"
+},
+
+{
+"_id":{"$oid":"6a3000000000000000000004"},
+"userId":{"$oid":"6a0a06020b5e1867f39c8750"},
+"items":[
+{
+"productId":{"$oid":"6a09f9a00b5e1867f39c8729"},
+"productVariantId":{"$oid":"6a0b11000b5e1867f39c8804"},
+"title":"Apple MacBook Air M2",
+"image":"/upload/products/macbook-1.jpg",
+"price":1200,
+"quantity":1
+}
+],
+"totalPrice":1200,
+"totalPriceAfterDiscount":1100,
+"discountCode":{"code":"SAVE100","amount":100},
+"freeShipping":true,
+"address":{
+"fullName":"Mahsa Moradi",
+"phone":"09120000006",
+"province":"Tehran",
+"city":"Tehran",
+"postalCode":"1587643210",
+"addressLine":"Enghelab Street"
+},
+"status":"shipped",
+"authority":"A10004",
+"refId":"R10004"
+},
+
+{
+"_id":{"$oid":"6a3000000000000000000005"},
+"userId":{"$oid":"6a0a06020b5e1867f39c8754"},
+"items":[
+{
+"productId":{"$oid":"6a09f9b00b5e1867f39c8730"},
+"productVariantId":{"$oid":"6a0b11000b5e1867f39c8805"},
+"title":"Apple Watch Series 9",
+"image":"/upload/products/watch-1.jpg",
+"price":499,
+"quantity":1
+}
+],
+"totalPrice":499,
+"totalPriceAfterDiscount":499,
+"freeShipping":false,
+"address":{
+"fullName":"Amir Ghasemi",
+"phone":"09120000010",
+"province":"Tabriz",
+"city":"Tabriz",
+"postalCode":"5154632100",
+"addressLine":"El Goli Street"
+},
+"status":"cancelled",
+"authority":"",
+"refId":""
+},
+
+{
+"_id":{"$oid":"6a3000000000000000000006"},
+"userId":{"$oid":"6a0a06020b5e1867f39c8753"},
+"items":[
+{
+"productId":{"$oid":"6a09f9c00b5e1867f39c8731"},
+"productVariantId":{"$oid":"6a0b11000b5e1867f39c8806"},
+"title":"Logitech Gaming Mouse",
+"image":"/upload/products/mouse-1.jpg",
+"price":120,
+"quantity":2
+}
+],
+"totalPrice":240,
+"totalPriceAfterDiscount":220,
+"discountCode":{"code":"GAMER10","percentage":8},
+"freeShipping":true,
+"address":{
+"fullName":"Maryam Rahimi",
+"phone":"09120000009",
+"province":"Karaj",
+"city":"Karaj",
+"postalCode":"3145632100",
+"addressLine":"Azadi Blvd"
+},
+"status":"paid",
+"authority":"A10006",
+"refId":"R10006"
+}
+]

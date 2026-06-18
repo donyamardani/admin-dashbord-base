@@ -1,4 +1,4 @@
-import { catchAsync } from "vanta-api";
+import { catchAsync, HandleERROR } from "vanta-api";
 import User from "../User/UserMd.js";
 import { sendAuthCode, verifyCode } from "../../Utils/smsHandler.js";
 import bcryptjs from "bcryptjs";
@@ -8,7 +8,7 @@ export const auth = catchAsync(async (req, res, next) => {
   const { phoneNumber } = req.body;
   let user = await User.findOne({ phoneNumber });
   if (!user || !user?.password) {
-    const resultSms = sendAuthCode(phoneNumber);
+    const resultSms =await sendAuthCode(phoneNumber);
     if (!resultSms) {
       return res.status(500).json({
         success: false,
@@ -90,7 +90,7 @@ export const loginWithOtp = catchAsync(async (req, res, next) => {
 });
 export const resendCode= catchAsync(async (req, res, next) => {
   const { phoneNumber } = req.body;
-  const resultSms = sendAuthCode(phoneNumber);
+  const resultSms =await sendAuthCode(phoneNumber);
   if (!resultSms) {
     return res.status(500).json({
       success: false,

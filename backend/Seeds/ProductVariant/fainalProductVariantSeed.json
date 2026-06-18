@@ -1,0 +1,323 @@
+[
+  {
+    "_id": {
+      "$oid": "6a18cc4089c5aa88d0dd6b39"
+    },
+    "productId": {
+      "$oid": "6a15c02d5cf7fe2936178a6d"
+    },
+    "variantIds": [
+      {
+        "$oid": "6a15bf3b5cf7fe2936178a51"
+      },
+      {
+        "$oid": "6a15bf3b5cf7fe2936178a5c"
+      }
+    ],
+    "quantity": 34,
+    "price": 1299,
+    "discountPercent": 5,
+    "priceAfterDiscount": 1234.05,
+    "boughtCount": 120,
+    "sku": "IPH15PM-BLK-128"
+  },
+  {
+    "_id": {
+      "$oid": "6a18cc4089c5aa88d0dd6b3a"
+    },
+    "productId": {
+      "$oid": "6a15c02d5cf7fe2936178a6d"
+    },
+    "variantIds": [
+      {
+        "$oid": "6a15bf3b5cf7fe2936178a56"
+      },
+      {
+        "$oid": "6a15bf3b5cf7fe2936178a5d"
+      }
+    ],
+    "quantity": 18,
+    "price": 1499,
+    "discountPercent": 7,
+    "priceAfterDiscount": 1394.07,
+    "boughtCount": 90,
+    "sku": "IPH15PM-SLV-256"
+  },
+  {
+    "_id": {
+      "$oid": "6a18cc4089c5aa88d0dd6b3b"
+    },
+    "productId": {
+      "$oid": "6a15c02d5cf7fe2936178a6d"
+    },
+    "variantIds": [
+      {
+        "$oid": "6a15bf3b5cf7fe2936178a57"
+      },
+      {
+        "$oid": "6a15bf3b5cf7fe2936178a5f"
+      }
+    ],
+    "quantity": 12,
+    "price": 1599,
+    "discountPercent": 10,
+    "priceAfterDiscount": 1439.1,
+    "boughtCount": 75,
+    "sku": "IPH15PM-GLD-1TB"
+  },
+  {
+    "_id": {
+      "$oid": "6a18cc4089c5aa88d0dd6b3c"
+    },
+    "productId": {
+      "$oid": "6a15c02d5cf7fe2936178a6e"
+    },
+    "variantIds": [
+      {
+        "$oid": "6a15bf3b5cf7fe2936178a51"
+      },
+      {
+        "$oid": "6a15bf3b5cf7fe2936178a5d"
+      }
+    ],
+    "quantity": 22,
+    "price": 1299,
+    "discountPercent": 6,
+    "priceAfterDiscount": 1221.06,
+    "boughtCount": 85,
+    "sku": "S24U-BLK-256"
+  },
+  {
+    "_id": {
+      "$oid": "6a18cc4089c5aa88d0dd6b3d"
+    },
+    "productId": {
+      "$oid": "6a15c02d5cf7fe2936178a6e"
+    },
+    "variantIds": [
+      {
+        "$oid": "6a15bf3b5cf7fe2936178a53"
+      },
+      {
+        "$oid": "6a15bf3b5cf7fe2936178a5f"
+      }
+    ],
+    "quantity": 10,
+    "price": 1499,
+    "discountPercent": 8,
+    "priceAfterDiscount": 1379.08,
+    "boughtCount": 66,
+    "sku": "S24U-BLU-1TB"
+  },
+  {
+    "_id": {
+      "$oid": "6a18cc4089c5aa88d0dd6b3e"
+    },
+    "productId": {
+      "$oid": "6a15c02d5cf7fe2936178a6f"
+    },
+    "variantIds": [
+      {
+        "$oid": "6a15bf3b5cf7fe2936178a51"
+      },
+      {
+        "$oid": "6a15bf3b5cf7fe2936178a5c"
+      }
+    ],
+    "quantity": 44,
+    "price": 399,
+    "discountPercent": 4,
+    "priceAfterDiscount": 383.04,
+    "boughtCount": 130,
+    "sku": "REDMI13P-BLK-128"
+  },
+  {
+    "_id": {
+      "$oid": "6a18cc4089c5aa88d0dd6b3f"
+    },
+    "productId": {
+      "$oid": "6a15c02d5cf7fe2936178a6f"
+    },
+    "variantIds": [
+      {
+        "$oid": "6a15bf3b5cf7fe2936178a53"
+      },
+      {
+        "$oid": "6a15bf3b5cf7fe2936178a5d"
+      }
+    ],
+    "quantity": 31,
+    "price": 499,
+    "discountPercent": 5,
+    "priceAfterDiscount": 474.05,
+    "boughtCount": 112,
+    "sku": "REDMI13P-BLU-256"
+  },
+  {
+    "_id": {
+      "$oid": "6a18cc4089c5aa88d0dd6b40"
+    },
+    "productId": {
+      "$oid": "6a15c02d5cf7fe2936178a70"
+    },
+    "variantIds": [
+      {
+        "$oid": "6a15bf3b5cf7fe2936178a59"
+      },
+      {
+        "$oid": "6a15bf3b5cf7fe2936178a5f"
+      }
+    ],
+    "quantity": 8,
+    "price": 1399,
+    "discountPercent": 12,
+    "priceAfterDiscount": 1231.12,
+    "boughtCount": 40,
+    "sku": "ACERN5-GRY-1TB"
+  },
+  {
+    "_id": {
+      "$oid": "6a18cc4089c5aa88d0dd6b41"
+    },
+    "productId": {
+      "$oid": "6a15c02d5cf7fe2936178a71"
+    },
+    "variantIds": [
+      {
+        "$oid": "6a15bf3b5cf7fe2936178a56"
+      },
+      {
+        "$oid": "6a15bf3b5cf7fe2936178a5f"
+      }
+    ],
+    "quantity": 7,
+    "price": 1999,
+    "discountPercent": 9,
+    "priceAfterDiscount": 1819.09,
+    "boughtCount": 35,
+    "sku": "XPS15-SLV-1TB"
+  },
+  {
+    "_id": {
+      "$oid": "6a18cc4089c5aa88d0dd6b42"
+    },
+    "productId": {
+      "$oid": "6a15c02d5cf7fe2936178a76"
+    },
+    "variantIds": [
+      {
+        "$oid": "6a15bf3b5cf7fe2936178a52"
+      }
+    ],
+    "quantity": 54,
+    "price": 349,
+    "discountPercent": 10,
+    "priceAfterDiscount": 314.1,
+    "boughtCount": 220,
+    "sku": "AIRPODSPRO2-WHT"
+  },
+  {
+    "_id": {
+      "$oid": "6a18cc4089c5aa88d0dd6b43"
+    },
+    "productId": {
+      "$oid": "6a15caa85cf7fe2936178aa6"
+    },
+    "variantIds": [
+      {
+        "$oid": "6a15bf3b5cf7fe2936178a51"
+      },
+      {
+        "$oid": "6a15bf3b5cf7fe2936178a59"
+      }
+    ],
+    "quantity": 20,
+    "price": 449,
+    "discountPercent": 11,
+    "priceAfterDiscount": 399.61,
+    "boughtCount": 170,
+    "sku": "SONYXM5-BLK-GRY"
+  },
+  {
+    "_id": {
+      "$oid": "6a18cc4089c5aa88d0dd6b44"
+    },
+    "productId": {
+      "$oid": "6a15caa85cf7fe2936178aa9"
+    },
+    "variantIds": [
+      {
+        "$oid": "6a15bf3b5cf7fe2936178a52"
+      }
+    ],
+    "quantity": 38,
+    "price": 119,
+    "discountPercent": 3,
+    "priceAfterDiscount": 115.43,
+    "boughtCount": 150,
+    "sku": "PS5CTRL-WHT"
+  },
+  {
+    "_id": {
+      "$oid": "6a18cc4089c5aa88d0dd6b45"
+    },
+    "productId": {
+      "$oid": "6a15de545cf7fe2936178ac1"
+    },
+    "variantIds": [
+      {
+        "$oid": "6a15bf3b5cf7fe2936178a54"
+      }
+    ],
+    "quantity": 26,
+    "price": 449,
+    "discountPercent": 5,
+    "priceAfterDiscount": 426.55,
+    "boughtCount": 210,
+    "sku": "NSWITCH-RED"
+  },
+  {
+    "_id": {
+      "$oid": "6a18cc4089c5aa88d0dd6b46"
+    },
+    "productId": {
+      "$oid": "6a1614d55cf7fe2936178b14"
+    },
+    "variantIds": [
+      {
+        "$oid": "6a15bf3b5cf7fe2936178a58"
+      },
+      {
+        "$oid": "6a15bf3b5cf7fe2936178a5d"
+      }
+    ],
+    "quantity": 16,
+    "price": 1799,
+    "discountPercent": 6,
+    "priceAfterDiscount": 1691.06,
+    "boughtCount": 98,
+    "sku": "IPH17PM-PRP-256"
+  },
+  {
+    "_id": {
+      "$oid": "6a18cc4089c5aa88d0dd6b47"
+    },
+    "productId": {
+      "$oid": "6a161cf05cf7fe2936178b15"
+    },
+    "variantIds": [
+      {
+        "$oid": "6a15bf3b5cf7fe2936178a52"
+      },
+      {
+        "$oid": "6a15bf3b5cf7fe2936178a57"
+      }
+    ],
+    "quantity": 27,
+    "price": 190,
+    "discountPercent": 5,
+    "priceAfterDiscount": 180.5,
+    "boughtCount": 76,
+    "sku": "WATCHP5-WHT-GLD"
+  }
+]

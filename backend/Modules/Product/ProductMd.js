@@ -1,4 +1,5 @@
 import mongoose from "mongoose";
+
 const informationSchema = new mongoose.Schema(
   {
     key: {
@@ -12,6 +13,7 @@ const informationSchema = new mongoose.Schema(
   },
   { _id: false },
 );
+
 const productSchema = new mongoose.Schema(
   {
     brandId: {
@@ -29,11 +31,11 @@ const productSchema = new mongoose.Schema(
       ref: "ProductVariant",
       default: null,
     },
-    productVariantIds: {
+    variantIds: {
       type: [
         {
           type: mongoose.Schema.Types.ObjectId,
-          ref: "ProductVariant",
+          ref: "Variant",
         },
       ],
       default: [],
@@ -74,13 +76,30 @@ const productSchema = new mongoose.Schema(
       type: Boolean,
       default: true,
     },
-    boughtCount:{
-      type:Number,
-      default:0
-    }
+    boughtCount: {
+      type: Number,
+      default: 0,
+    },
+    minPrice: {
+      type: Number,
+    },
+    maxPrice: {
+      type: Number,
+    },
   },
-  { timestamps: true },
+  { 
+    timestamps: true,
+    toJSON: { virtuals: true },   
+    toObject: { virtuals: true }  
+  },
 );
+
+
+productSchema.virtual('productVariantIds', {
+  ref: 'ProductVariant',
+  localField: '_id',
+  foreignField: 'productId'
+});
 
 const Product = mongoose.model("Product", productSchema);
 export default Product;

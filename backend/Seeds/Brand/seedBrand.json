@@ -1,0 +1,112 @@
+[{
+  "_id": {
+    "$oid": "6a15bcd55cf7fe2936178a33"
+  },
+  "title": "apple",
+  "image": "/upload/brand/apple-mobile.jpg",
+  "isPublished": true
+},
+{
+  "_id": {
+    "$oid": "6a15bcd55cf7fe2936178a34"
+  },
+  "title": "sumsong",
+  "image": "/upload/brand/sumsong-mobile.jpg",
+  "isPublished": true
+},
+{
+  "_id": {
+    "$oid": "6a15bcd55cf7fe2936178a35"
+  },
+  "title": "xiami",
+  "image": "/upload/brand/redmi-mobile.jpg",
+  "isPublished": true
+},
+{
+  "_id": {
+    "$oid": "6a15bcd55cf7fe2936178a36"
+  },
+  "title": "aser",
+  "image": "/upload/brand/aser-laptop.jpg",
+  "isPublished": true
+},
+{
+  "_id": {
+    "$oid": "6a15bcd55cf7fe2936178a37"
+  },
+  "title": "dell",
+  "image": "/upload/brand/dell-laptop.jpg",
+  "isPublished": true
+},
+{
+  "_id": {
+    "$oid": "6a15bcd55cf7fe2936178a38"
+  },
+  "title": "hp",
+  "image": "/upload/brand/hp-laptop.jpg",
+  "isPublished": true
+},
+{
+  "_id": {
+    "$oid": "6a15bcd55cf7fe2936178a39"
+  },
+  "title": "lenovo",
+  "image": "/upload/brand/lenovo-laptop-4.jpg",
+  "isPublished": true
+},
+{
+  "_id": {
+    "$oid": "6a15bcd55cf7fe2936178a3a"
+  },
+  "title": "sony",
+  "image": "/upload/brand/sony-camera-.jpg",
+  "isPublished": true
+},
+{
+  "_id": {
+    "$oid": "6a15bcd55cf7fe2936178a3b"
+  },
+  "title": "canon",
+  "image": "/upload/brand/canon-camera.jpg",
+  "isPublished": true
+},
+{
+  "_id": {
+    "$oid": "6a15bcd55cf7fe2936178a3c"
+  },
+  "title": "QCY",
+  "image": "/upload/brand/QCY-airpod.jpg",
+  "isPublished": true
+},
+{
+  "_id": {
+    "$oid": "6a15bcd55cf7fe2936178a3d"
+  },
+  "title": "tesco",
+  "image": "/upload/brand/tesco-keyboard.jpg",
+  "isPublished": true
+},
+{
+  "_id": {
+    "$oid": "6a15bcd55cf7fe2936178a3e"
+  },
+  "title": "hiska",
+  "image": "/upload/brand/hiska-keyboard.jpg",
+  "isPublished": true
+},
+{
+  "_id": {
+    "$oid": "6a15bcd55cf7fe2936178a3f"
+  },
+  "title": "jbl",
+  "image": "/upload/brand/jbl-speaker.jpg",
+  "isPublished": true
+},
+{
+  "_id": {
+    "$oid": "6a15bcd55cf7fe2936178a40"
+  },
+  "title": "ps5",
+  "image": "/upload/brand/ps5-game-8.jpg",
+  "isPublished": true
+}]

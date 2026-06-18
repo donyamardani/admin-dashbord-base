@@ -1,0 +1,59 @@
+[{
+  "_id": {
+    "$oid": "69933fb370ac0d293fe5d68e"
+  },
+  "userId": {
+    "$oid": "69933fb370ac0d293fe5d68c"
+  },
+  "items": [
+    {
+      "productId": {
+        "$oid": "6a09f9740b5e1867f39c8722"
+      },
+      "productVariantId": {
+        "$oid": "6a09fb260b5e1867f39c873b"
+      },
+      "title": "Apple iPhone 15 Pro",
+      "image": "55.jpg",
+      "price": 999,
+      "quantity": 1
+    }
+  ],
+  "totalPrice": 999,
+  "totalPriceAfterDiscount": 999
+},
+{
+  "_id": {
+    "$oid": "69fcfe5e12abfd4ab1894362"
+  },
+  "userId": {
+    "$oid": "69fcfe5e12abfd4ab1894360"
+  },
+  "items": [
+    {
+      "productId": {
+        "$oid": "6a09f9740b5e1867f39c8723"
+      },
+      "productVariantId": {
+        "$oid": "6a09fb260b5e1867f39c873c"
+      },
+      "title": "Samsung Galaxy S24",
+      "image": "56.jpg",
+      "price": 899,
+      "quantity": 2
+    }
+  ],
+  "totalPrice": 1798,
+  "totalPriceAfterDiscount": 1798
+},
+{
+  "_id": {
+    "$oid": "6a074253d0b97dc6943f697a"
+  },
+  "userId": {
+    "$oid": "6a074253d0b97dc6943f6978"
+  },
+  "items": [],
+  "totalPrice": 0,
+  "totalPriceAfterDiscount": 0
+}]

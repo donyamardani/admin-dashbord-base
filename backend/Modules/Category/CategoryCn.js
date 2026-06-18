@@ -3,13 +3,14 @@ import Product from "../Product/ProductMd.js";
 import { __dirname } from "../../app.js";
 import fs from "fs";
 import Category from "./CategoryMd.js";
+
 export const getAll = catchAsync(async (req, res, next) => {
   const features = new ApiFeatures(Category, req.query, req.role)
     .addManualFilters({
       ...(req.query?.search
         ? { title: { $regex: req.query.search, $options: "i" } }
         : {}),
-      ...(req.role == "admin" || req.role == "superAdmin"
+      ...(req.role === "admin" || req.role === "superAdmin"
         ? {}
         : { isPublished: true }),
     })
@@ -21,10 +22,11 @@ export const getAll = catchAsync(async (req, res, next) => {
   const result = await features.execute();
   return res.status(200).json(result);
 });
+
 export const getOne = catchAsync(async (req, res, next) => {
   const features = new ApiFeatures(Category, req.query, req.role)
     .addManualFilters(
-      req.role == "admin" || req.role == "superAdmin"
+      req.role === "admin" || req.role === "superAdmin"
         ? { _id: req.params.id }
         : { $and: [{ _id: req.params.id }, { isPublished: true }] },
     )
@@ -45,12 +47,16 @@ export const create = catchAsync(async (req, res, next) => {
     data: category,
   });
 });
+
 export const update = catchAsync(async (req, res, next) => {
   const category = await Category.findByIdAndUpdate(req.params.id, req.body, {
-    runValidator: true,
+    runValidators: true, // FIX #7: was "runValidator"
     new: true,
   });
-  return res.status(201).json({
+  if (!category) {
+    return next(new HandleERROR("category not found", 404));
+  }
+  return res.status(200).json({
     success: true,
     message: "category updated successfully",
     data: category,
@@ -58,21 +64,21 @@ export const update = catchAsync(async (req, res, next) => {
 });
 
 export const remove = catchAsync(async (req, res, next) => {
-  const product = await Product.find({ categoryId: req.params.id });
-  const categories = await Category.find({ supCategoryId: req.params.id });
-  if (product.length > 0 || categories.length > 0) {
+  const products = await Product.find({ categoryId: req.params.id });
+  const subcategories = await Category.find({ supCategoryId: req.params.id });
+  if (products.length > 0 || subcategories.length > 0) {
     return next(
       new HandleERROR(
-        "this Category contain some product you can not deleted or have sub Categories",
+        "this category contains products or sub-categories and cannot be deleted",
         400,
       ),
     );
   }
   const category = await Category.findByIdAndDelete(req.params.id);
-  if (fs.existsSync(`${__dirname}/Public/${category.image}`)) {
-    fs.unlinkSync(`${__dirname}/Public/${category.image}`);
+  if (!category) {
+    return next(new HandleERROR("category not found", 404));
   }
-  return res.status(201).json({
+  return res.status(200).json({
     success: true,
     message: "category deleted successfully",
     data: category,

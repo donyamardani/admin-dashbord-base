@@ -1,0 +1,80 @@
+[{
+  "_id": {
+    "$oid": "6a15bfa55cf7fe2936178a64"
+  },
+  "title": "iPhone Collection",
+  "image": "/upload/baners/baner1.jpg",
+  "href": "/products/mobile",
+  "path": "mobile",
+  "isPublished": true
+},
+{
+  "_id": {
+    "$oid": "6a15bfa55cf7fe2936178a65"
+  },
+  "title": "Gaming Accessories",
+  "image": "/upload/baners/baner2.jpg",
+  "href": "/products/gaming",
+  "path": "gaming",
+  "isPublished": true
+},
+{
+  "_id": {
+    "$oid": "6a15bfa55cf7fe2936178a66"
+  },
+  "title": "Smart Watches",
+  "image": "/upload/baners/baner3.jpg",
+  "href": "/products/smartwatch",
+  "path": "smartwatch",
+  "isPublished": true
+},
+{
+  "_id": {
+    "$oid": "6a15bfa55cf7fe2936178a67"
+  },
+  "title": "Professional Cameras",
+  "image": "/upload/baners/baner6.jpg",
+  "href": "/products/camera",
+  "path": "camera",
+  "isPublished": true
+},
+{
+  "_id": {
+    "$oid": "6a15bfa55cf7fe2936178a68"
+  },
+  "title": "Wireless Headphones",
+  "image": "/upload/baners/baner7.jpg",
+  "href": "/products/headphone",
+  "path": "headphone",
+  "isPublished": true
+},
+{
+  "_id": {
+    "$oid": "6a15bfa55cf7fe2936178a69"
+  },
+  "title": "Laptop Deals",
+  "image": "/upload/baners/baner8.jpg",
+  "href": "/products/laptop",
+  "path": "laptop",
+  "isPublished": true
+},
+{
+  "_id": {
+    "$oid": "6a15bfa55cf7fe2936178a6a"
+  },
+  "title": "JBL Speakers",
+  "image": "/upload/baners/baner9.jpg",
+  "href": "/products/speaker",
+  "path": "speaker",
+  "isPublished": true
+},
+{
+  "_id": {
+    "$oid": "6a15bfa55cf7fe2936178a6b"
+  },
+  "title": "PowerBank Collection",
+  "image": "/upload/baners/baner4.jpg",
+  "href": "/products/accessories",
+  "path": "accessories",
+  "isPublished": true
+}]

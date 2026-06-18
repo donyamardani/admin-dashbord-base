@@ -1,0 +1,93 @@
+[
+{
+"_id":{"$oid":"6a4000000000000000000001"},
+"productId":{"$oid":"6a09f9740b5e1867f39c8723"},
+"userId":{"$oid":"6a074253d0b97dc6943f6978"},
+"content":"Great phone, the camera quality is amazing.",
+"rate":5,
+"isBought":true,
+"isPublished":true
+},
+
+{
+"_id":{"$oid":"6a4000000000000000000002"},
+"productId":{"$oid":"6a09f9740b5e1867f39c8723"},
+"userId":{"$oid":"6a0a06020b5e1867f39c8754"},
+"content":"Battery life is good but I expected more.",
+"rate":4,
+"isBought":true,
+"isPublished":true
+},
+
+{
+"_id":{"$oid":"6a4000000000000000000003"},
+"productId":{"$oid":"6a09f9740b5e1867f39c8723"},
+"userId":{"$oid":"69933fb370ac0d293fe5d68c"},
+"content":"Does it support fast charging?",
+"isPublished":true
+},
+
+{
+"_id":{"$oid":"6a4000000000000000000004"},
+"productId":{"$oid":"6a09f9740b5e1867f39c8723"},
+"userId":{"$oid":"6a20aa000000000000000001"},
+"content":"Yes, it supports fast charging up to 27W.",
+"replyTo":{"$oid":"6a4000000000000000000003"},
+"isPublished":true
+},
+
+{
+"_id":{"$oid":"6a4000000000000000000005"},
+"productId":{"$oid":"6a09f9a00b5e1867f39c8729"},
+"userId":{"$oid":"6a0a06020b5e1867f39c8753"},
+"content":"This laptop is very fast for development work.",
+"rate":5,
+"isBought":true,
+"isPublished":true
+},
+
+{
+"_id":{"$oid":"6a4000000000000000000006"},
+"productId":{"$oid":"6a09f9a00b5e1867f39c8729"},
+"userId":{"$oid":"6a0a06020b5e1867f39c8751"},
+"content":"Does it have good battery life?",
+"isPublished":true
+},
+
+{
+"_id":{"$oid":"6a4000000000000000000007"},
+"productId":{"$oid":"6a09f9c00b5e1867f39c8731"},
+"userId":{"$oid":"6a0a06020b5e1867f39c8750"},
+"content":"Very comfortable mouse for long gaming sessions.",
+"rate":5,
+"isBought":true,
+"isPublished":true
+},
+
+{
+"_id":{"$oid":"6a4000000000000000000008"},
+"productId":{"$oid":"6a09f9c00b5e1867f39c8731"},
+"userId":{"$oid":"6a0a06020b5e1867f39c8752"},
+"content":"Scroll wheel feels very smooth.",
+"rate":4,
+"isPublished":true
+},
+
+{
+"_id":{"$oid":"6a4000000000000000000009"},
+"productId":{"$oid":"6a09f9b00b5e1867f39c8730"},
+"userId":{"$oid":"6a0a06020b5e1867f39c8756"},
+"content":"Apple Watch integration with iPhone is perfect.",
+"rate":5,
+"isBought":true,
+"isPublished":true
+},
+
+{
+"_id":{"$oid":"6a4000000000000000000010"},
+"productId":{"$oid":"6a09f9b00b5e1867f39c8730"},
+"userId":{"$oid":"6a0a06020b5e1867f39c8757"},
+"content":"Waiting for stock to become available again.",
+"isPublished":false
+}
+]

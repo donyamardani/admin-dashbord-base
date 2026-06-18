@@ -1,0 +1,126 @@
+[{
+  "_id": {
+    "$oid": "6a15bf3b5cf7fe2936178a51"
+  },
+  "type": "color",
+  "value": "black"
+},
+{
+  "_id": {
+    "$oid": "6a15bf3b5cf7fe2936178a52"
+  },
+  "type": "color",
+  "value": "white"
+},
+{
+  "_id": {
+    "$oid": "6a15bf3b5cf7fe2936178a53"
+  },
+  "type": "color",
+  "value": "blue"
+},
+{
+  "_id": {
+    "$oid": "6a15bf3b5cf7fe2936178a54"
+  },
+  "type": "color",
+  "value": "red"
+},
+{
+  "_id": {
+    "$oid": "6a15bf3b5cf7fe2936178a55"
+  },
+  "type": "color",
+  "value": "green"
+},
+{
+  "_id": {
+    "$oid": "6a15bf3b5cf7fe2936178a56"
+  },
+  "type": "color",
+  "value": "silver"
+},
+{
+  "_id": {
+    "$oid": "6a15bf3b5cf7fe2936178a57"
+  },
+  "type": "color",
+  "value": "gold"
+},
+{
+  "_id": {
+    "$oid": "6a15bf3b5cf7fe2936178a58"
+  },
+  "type": "color",
+  "value": "purple"
+},
+{
+  "_id": {
+    "$oid": "6a15bf3b5cf7fe2936178a59"
+  },
+  "type": "color",
+  "value": "gray"
+},
+{
+  "_id": {
+    "$oid": "6a15bf3b5cf7fe2936178a5a"
+  },
+  "type": "color",
+  "value": "pink"
+},
+{
+  "_id": {
+    "$oid": "6a15bf3b5cf7fe2936178a5b"
+  },
+  "type": "size",
+  "value": "64GB"
+},
+{
+  "_id": {
+    "$oid": "6a15bf3b5cf7fe2936178a5c"
+  },
+  "type": "size",
+  "value": "128GB"
+},
+{
+  "_id": {
+    "$oid": "6a15bf3b5cf7fe2936178a5d"
+  },
+  "type": "size",
+  "value": "256GB"
+},
+{
+  "_id": {
+    "$oid": "6a15bf3b5cf7fe2936178a5e"
+  },
+  "type": "size",
+  "value": "512GB"
+},
+{
+  "_id": {
+    "$oid": "6a15bf3b5cf7fe2936178a5f"
+  },
+  "type": "size",
+  "value": "1TB"
+},
+{
+  "_id": {
+    "$oid": "6a15bf3b5cf7fe2936178a60"
+  },
+  "type": "size",
+  "value": "small"
+},
+{
+  "_id": {
+    "$oid": "6a15bf3b5cf7fe2936178a61"
+  },
+  "type": "size",
+  "value": "medium"
+},
+{
+  "_id": {
+    "$oid": "6a15bf3b5cf7fe2936178a62"
+  },
+  "type": "size",
+  "value": "large"
+}]

@@ -1,0 +1,126 @@
+[{
+  "_id": {
+    "$oid": "6a15bdd25cf7fe2936178a42"
+  },
+  "title": "mobile",
+  "supCategoryId": null,
+  "image": "/upload/categories/mobile-1.jpg",
+  "isPublished": true
+},
+{
+  "_id": {
+    "$oid": "6a15bdd25cf7fe2936178a43"
+  },
+  "title": "laptop",
+  "supCategoryId": null,
+  "image": "/upload/categories/laptop-2.jpg",
+  "isPublished": true
+},
+{
+  "_id": {
+    "$oid": "6a15bdd25cf7fe2936178a44"
+  },
+  "title": "camera",
+  "supCategoryId": null,
+  "image": "/upload/categories/camera-3.jpg",
+  "isPublished": true
+},
+{
+  "_id": {
+    "$oid": "6a15bdd25cf7fe2936178a45"
+  },
+  "title": "smartwatch",
+  "supCategoryId": null,
+  "image": "/upload/categories/smartwatch-4.jpg",
+  "isPublished": true
+},
+{
+  "_id": {
+    "$oid": "6a15bdd25cf7fe2936178a46"
+  },
+  "title": "airpod",
+  "supCategoryId": null,
+  "image": "/upload/categories/airpod-5.jpg",
+  "isPublished": true
+},
+{
+  "_id": {
+    "$oid": "6a15bdd25cf7fe2936178a47"
+  },
+  "title": "gaming",
+  "supCategoryId": null,
+  "image": "/upload/categories/gaming-6.jpg",
+  "isPublished": true
+},
+{
+  "_id": {
+    "$oid": "6a15bdd25cf7fe2936178a48"
+  },
+  "title": "headphone",
+  "supCategoryId": null,
+  "image": "/upload/categories/headphone-7.jpg",
+  "isPublished": true
+},
+{
+  "_id": {
+    "$oid": "6a15bdd25cf7fe2936178a49"
+  },
+  "title": "speaker",
+  "supCategoryId": null,
+  "image": "/upload/categories/speaker-8.jpg",
+  "isPublished": true
+},
+{
+  "_id": {
+    "$oid": "6a15bdd25cf7fe2936178a4a"
+  },
+  "title": "mouse-keyboard",
+  "supCategoryId": null,
+  "image": "/upload/categories/mouse-keyboard-9.jpg",
+  "isPublished": true
+},
+{
+  "_id": {
+    "$oid": "6a15bdd25cf7fe2936178a4b"
+  },
+  "title": "accessories",
+  "supCategoryId": null,
+  "image": "/upload/categories/cable-9.jpg",
+  "isPublished": true
+},
+{
+  "_id": {
+    "$oid": "6a15bdd25cf7fe2936178a4c"
+  },
+  "title": "cable",
+  "supCategoryId": null,
+  "image": "/upload/categories/cable-9.jpg",
+  "isPublished": true
+},
+{
+  "_id": {
+    "$oid": "6a15bdd25cf7fe2936178a4d"
+  },
+  "title": "charger",
+  "supCategoryId": null,
+  "image": "/upload/categories/charger-7.jpg",
+  "isPublished": true
+},
+{
+  "_id": {
+    "$oid": "6a15bdd25cf7fe2936178a4e"
+  },
+  "title": "powerbank",
+  "supCategoryId": null,
+  "image": "/upload/categories/powerbank-10.jpg",
+  "isPublished": true
+},
+{
+  "_id": {
+    "$oid": "6a15bdd25cf7fe2936178a4f"
+  },
+  "title": "control-game",
+  "supCategoryId": null,
+  "image": "/upload/categories/contorol-game-10.jpg",
+  "isPublished": true
+}]

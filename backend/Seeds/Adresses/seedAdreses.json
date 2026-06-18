@@ -1,0 +1,54 @@
+[{
+  "_id": {
+    "$oid": "6a0a07110b5e1867f39c8760"
+  },
+  "userId": {
+    "$oid": "69933fb370ac0d293fe5d68c"
+  },
+  "title": "خانه",
+  "description": "خیابان احمدآباد",
+  "province": "خراسان رضوی",
+  "city": "مشهد",
+  "postalCode": "9187654321",
+  "receiverFullName": "Donya Mardani",
+  "receiverPhoneNumber": "09155791755",
+  "buildingNo": "12",
+  "lat": 36.297,
+  "lng": 59.606
+},
+{
+  "_id": {
+    "$oid": "6a0a07110b5e1867f39c8761"
+  },
+  "userId": {
+    "$oid": "69fcfe5e12abfd4ab1894360"
+  },
+  "title": "خانه",
+  "description": "خیابان آزادی",
+  "province": "خراسان رضوی",
+  "city": "مشهد",
+  "postalCode": "9187654322",
+  "receiverFullName": "کاربر",
+  "receiverPhoneNumber": "09152923669",
+  "buildingNo": "8",
+  "lat": 36.3,
+  "lng": 59.59
+},
+{
+  "_id": {
+    "$oid": "6a0a07110b5e1867f39c8762"
+  },
+  "userId": {
+    "$oid": "6a074253d0b97dc6943f6978"
+  },
+  "title": "خانه",
+  "description": "خیابان وکیل آباد",
+  "province": "خراسان رضوی",
+  "city": "مشهد",
+  "postalCode": "9187654323",
+  "receiverFullName": "shirin",
+  "receiverPhoneNumber": "09157088678",
+  "buildingNo": "21",
+  "lat": 36.31,
+  "lng": 59.52
+}]

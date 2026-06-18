@@ -19,14 +19,8 @@ export const getOne = catchAsync(async (req, res, next) => {
           select: "price priceAfterDiscount discountPercent quantity variantId",
           populate: { path: "variantId" },
         },
-        {
-          path: "categoryId",
-          select: "title",
-        },
-        {
-          path: "brandId",
-          select: "title",
-        },
+        { path: "categoryId", select: "title" },
+        { path: "brandId", select: "title" },
       ],
     });
   const result = await features.execute();
@@ -34,14 +28,15 @@ export const getOne = catchAsync(async (req, res, next) => {
   let newTotalPriceAfterDiscount = 0;
   let change = false;
   const cart = result.data[0];
-  let newCart = cart;
+  // FIX: use .toObject() to avoid mutating a live Mongoose document
+  let newCart = cart.toObject ? cart.toObject() : { ...cart };
   newCart.items = newCart.items?.filter((item) => {
     item.categoryId = item.categoryId._id;
     item.brandId = item.brandId._id;
     if (item.quantity > item.productVariantId.quantity) {
       change = true;
       item.quantity = item.productVariantId.quantity;
-      if (item.quantity == 0) {
+      if (item.quantity === 0) {
         return false;
       }
     }
@@ -50,11 +45,11 @@ export const getOne = catchAsync(async (req, res, next) => {
       item.quantity * item.productVariantId.priceAfterDiscount;
     item.productVariantId = item.productVariantId._id;
     item.productId = item.productId._id;
-    return item;
+    return true;
   });
   if (
-    newCart.totalPrice != newTotalPrice ||
-    newCart.totalPriceAfterDiscount != newTotalPriceAfterDiscount
+    newCart.totalPrice !== newTotalPrice ||
+    newCart.totalPriceAfterDiscount !== newTotalPriceAfterDiscount
   ) {
     change = true;
     newCart.totalPrice = newTotalPrice;
@@ -73,14 +68,8 @@ export const getOne = catchAsync(async (req, res, next) => {
           select: "price priceAfterDiscount discountPercent quantity variantId",
           populate: { path: "variantId" },
         },
-        {
-          path: "categoryId",
-          select: "title",
-        },
-        {
-          path: "brandId",
-          select: "title",
-        },
+        { path: "categoryId", select: "title" },
+        { path: "brandId", select: "title" },
       ],
     });
   } else {
@@ -96,25 +85,36 @@ export const addItem = catchAsync(async (req, res, next) => {
   const { productId, productVariantId } = req.body;
   const pr = await Product.findById(productId);
   const prv = await ProductVariant.findById(productVariantId);
-  if (prv.quantity == 0) {
+
+  if (!prv) {
+    return next(new HandleERROR("product variant not found", 404));
+  }
+  if (prv.quantity === 0) {
     return next(
-      new HandleERROR("you can not add this item.not enough quantity"),
+      new HandleERROR("you can not add this item. not enough quantity", 400),
     );
   }
+
   const cart = await Cart.findOne({ userId: req.userId });
   let add = false;
-  cart.items = cart.items.map((item) => {
-    if (item.productVariantId == productVariantId) {
-      item.quantity++;
-      add = true;
-      if (item.quantity > prv.quantity) {
+  // FIX #1: don't use .map() with next() — instead iterate with a for loop
+  // so we can return early from the handler if quantity is exceeded.
+  for (const item of cart.items) {
+    if (item.productVariantId.toString() === productVariantId.toString()) {
+      if (item.quantity + 1 > prv.quantity) {
         return next(
-          new HandleERROR("you can not add this item.not enough quantity"),
+          new HandleERROR(
+            "you can not add this item. not enough quantity",
+            400,
+          ),
         );
       }
+      item.quantity++;
+      add = true;
+      break;
     }
-    return item;
-  });
+  }
+
   if (!add) {
     cart.items.push({
       productId,
@@ -127,7 +127,8 @@ export const addItem = catchAsync(async (req, res, next) => {
   cart.totalPrice += prv.price;
   cart.totalPriceAfterDiscount += prv.priceAfterDiscount;
   await cart.save();
-  let newCart = await Cart.findById(cart._id).populate({
+
+  const newCart = await Cart.findById(cart._id).populate({
     path: "items",
     populate: [
       { path: "productId", select: "title images ratingCount avgRating" },
@@ -136,14 +137,8 @@ export const addItem = catchAsync(async (req, res, next) => {
         select: "price priceAfterDiscount discountPercent quantity variantId",
         populate: { path: "variantId" },
       },
-      {
-        path: "categoryId",
-        select: "title",
-      },
-      {
-        path: "brandId",
-        select: "title",
-      },
+      { path: "categoryId", select: "title" },
+      { path: "brandId", select: "title" },
     ],
   });
   return res.status(200).json({
@@ -154,23 +149,44 @@ export const addItem = catchAsync(async (req, res, next) => {
 });
 
 export const removeItem = catchAsync(async (req, res, next) => {
-  const {  productVariantId } = req.body;
+  const { productVariantId } = req.body;
   const prv = await ProductVariant.findById(productVariantId);
- 
+
+  if (!prv) {
+    return next(new HandleERROR("product variant not found", 404));
+  }
+
   const cart = await Cart.findOne({ userId: req.userId });
-  cart.items = cart.items.filter((item) => {
-    if (item.productVariantId == productVariantId) {
-      item.quantity--;
-      if (item.quantity==0) {
-       return false
-      }
-    }
-    return item;
-  })
-  cart.totalPrice -= prv.price;
-  cart.totalPriceAfterDiscount -= prv.priceAfterDiscount;
+
+  // FIX #2: check whether the item actually exists before decrementing totals
+  const item = cart.items.find(
+    (i) => i.productVariantId.toString() === productVariantId.toString(),
+  );
+  if (!item) {
+    return next(new HandleERROR("item not found in cart", 404));
+  }
+
+  // FIX #2: guard against quantity already being 0
+  if (item.quantity <= 0) {
+    return next(new HandleERROR("item quantity is already zero", 400));
+  }
+
+  item.quantity--;
+  if (item.quantity === 0) {
+    cart.items = cart.items.filter(
+      (i) => i.productVariantId.toString() !== productVariantId.toString(),
+    );
+  }
+
+  // Only decrement totals once we've confirmed the item existed
+  cart.totalPrice = Math.max(0, cart.totalPrice - prv.price);
+  cart.totalPriceAfterDiscount = Math.max(
+    0,
+    cart.totalPriceAfterDiscount - prv.priceAfterDiscount,
+  );
   await cart.save();
-  let newCart = await Cart.findById(cart._id).populate({
+
+  const newCart = await Cart.findById(cart._id).populate({
     path: "items",
     populate: [
       { path: "productId", select: "title images ratingCount avgRating" },
@@ -179,14 +195,8 @@ export const removeItem = catchAsync(async (req, res, next) => {
         select: "price priceAfterDiscount discountPercent quantity variantId",
         populate: { path: "variantId" },
       },
-      {
-        path: "categoryId",
-        select: "title",
-      },
-      {
-        path: "brandId",
-        select: "title",
-      },
+      { path: "categoryId", select: "title" },
+      { path: "brandId", select: "title" },
     ],
   });
   return res.status(200).json({
