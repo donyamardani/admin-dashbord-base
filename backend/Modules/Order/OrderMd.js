@@ -13,7 +13,8 @@ const orderItemSchema = new mongoose.Schema(
       required: true,
     },
 
-    // snapshot data
+    // snapshot data — frozen at time of purchase so later price/title changes
+    // don't retroactively alter past orders
     title: {
       type: String,
       required: true,
@@ -33,7 +34,7 @@ const orderItemSchema = new mongoose.Schema(
       min: 1,
     },
   },
-  { _id: false }
+  { _id: false },
 );
 
 const orderSchema = new mongoose.Schema(
@@ -79,9 +80,21 @@ const orderSchema = new mongoose.Schema(
       addressLine: String,
     },
 
+    // FIX #5: OrderCt.js sets status to "pending" / "success" / "failed",
+    // but this enum only had "paid" / "shipped" / "delivered" / "cancelled".
+    // Any save() with "success" would have thrown a validation error.
+    // Kept post-purchase fulfillment statuses too, in case they're used later
+    // (e.g. by an admin shipping flow) — controller code just needs to set them.
     status: {
       type: String,
-      enum: ["pending", "paid", "shipped", "delivered", "failed", "cancelled"],
+      enum: [
+        "pending",
+        "success",
+        "failed",
+        "shipped",
+        "delivered",
+        "cancelled",
+      ],
       default: "pending",
     },
 
@@ -95,7 +108,7 @@ const orderSchema = new mongoose.Schema(
       default: "",
     },
   },
-  { timestamps: true }
+  { timestamps: true },
 );
 
 const Order = mongoose.model("Order", orderSchema);

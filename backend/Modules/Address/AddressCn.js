@@ -2,13 +2,14 @@ import ApiFeatures, { catchAsync, HandleERROR } from "vanta-api";
 import { __dirname } from "../../app.js";
 import Address from "./AddressMd.js";
 import User from "../User/UserMd.js";
+
 export const getAll = catchAsync(async (req, res, next) => {
   const features = new ApiFeatures(Address, req.query, req.role)
     .addManualFilters({
       ...(req.query?.search
         ? { title: { $regex: req.query.search, $options: "i" } }
         : {}),
-      ...(req.role == "admin" || req.role == "superAdmin"
+      ...(req.role === "admin" || req.role === "superAdmin"
         ? {}
         : { userId: req.userId }),
     })
@@ -16,14 +17,15 @@ export const getAll = catchAsync(async (req, res, next) => {
     .sort()
     .limitFields()
     .paginate()
-    .populate({ path: 'userId', select: "phoneNumber fullName" });
+    .populate({ path: "userId", select: "phoneNumber fullName" });
   const result = await features.execute();
   return res.status(200).json(result);
 });
+
 export const getOne = catchAsync(async (req, res, next) => {
   const features = new ApiFeatures(Address, req.query, req.role)
     .addManualFilters(
-      req.role == "admin" || req.role == "superAdmin"
+      req.role === "admin" || req.role === "superAdmin"
         ? { _id: req.params.id }
         : { $and: [{ _id: req.params.id }, { userId: req.userId }] },
     )
@@ -31,7 +33,7 @@ export const getOne = catchAsync(async (req, res, next) => {
     .sort()
     .limitFields()
     .paginate()
-    .populate({ path: 'userId', select: "phoneNumber fullName" });
+    .populate({ path: "userId", select: "phoneNumber fullName" });
   const result = await features.execute();
   return res.status(200).json(result);
 });
@@ -47,21 +49,29 @@ export const create = catchAsync(async (req, res, next) => {
     data: address,
   });
 });
+
 export const update = catchAsync(async (req, res, next) => {
   const { userId = null, ...otherData } = req.body;
   const address = await Address.findById(req.params.id);
+  if (!address) {
+    return next(new HandleERROR("address not found", 404));
+  }
   if (
-    address.userId.toString() != req.userId.toString() &&
-    req.role != "admin" &&
-    req.role != "superAdmin"
+    address.userId.toString() !== req.userId.toString() &&
+    req.role !== "admin" &&
+    req.role !== "superAdmin"
   ) {
     return next(new HandleERROR("you don't have permission", 401));
   }
-  const newAddress = await Address.findByIdAndUpdate(req.params.id, otherData, {
-    runValidator: true,
-    new: true,
-  });
-  return res.status(201).json({
+  const newAddress = await Address.findByIdAndUpdate(
+    req.params.id,
+    otherData,
+    {
+      runValidators: true, // FIX #7: was "runValidator"
+      new: true,
+    },
+  );
+  return res.status(200).json({
     success: true,
     message: "address updated successfully",
     data: newAddress,
@@ -70,22 +80,25 @@ export const update = catchAsync(async (req, res, next) => {
 
 export const remove = catchAsync(async (req, res, next) => {
   const address = await Address.findById(req.params.id);
+  if (!address) {
+    return next(new HandleERROR("address not found", 404));
+  }
   if (
-    address.userId.toString() != req.userId.toString() &&
-    req.role != "admin" &&
-    req.role != "superAdmin"
+    address.userId.toString() !== req.userId.toString() &&
+    req.role !== "admin" &&
+    req.role !== "superAdmin"
   ) {
     return next(new HandleERROR("you don't have permission", 401));
   }
   await Address.findByIdAndDelete(req.params.id);
- 
+
   await User.findByIdAndUpdate(address.userId, {
     $pull: { addressIds: address._id },
   });
 
-  return res.status(201).json({
+  return res.status(200).json({
     success: true,
     message: "address deleted successfully",
-    data: Address,
+    data: address, // FIX #6: was "Address" (the Model/class) — now returns the actual deleted document
   });
 });
