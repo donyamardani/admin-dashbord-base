@@ -2,8 +2,12 @@ import ApiFeatures, { catchAsync, HandleERROR } from "vanta-api";
 import User from "./UserMd.js";
 import bcryptjs from "bcryptjs";
 export const getAll = catchAsync(async (req, res, next) => {
-  const { search = null } = req?.query;
-  const features = new ApiFeatures(User, req.query, req.role)
+  const { search = null, ...restQuery } = req?.query;
+  // FIX: "search" is not in vanta-api's RESERVED_QUERY_KEYS, so leaving it in
+  // req.query causes ApiFeatures to also add a literal { search: <value> }
+  // match filter (since no document has a "search" field, this always
+  // returns 0 results). Pass restQuery (without "search") instead.
+  const features = new ApiFeatures(User, restQuery, req.role)
     .addManualFilters(
       search
         ? {

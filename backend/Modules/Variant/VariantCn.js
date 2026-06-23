@@ -2,10 +2,15 @@ import ApiFeatures, { catchAsync, HandleERROR } from "vanta-api";
 import Variant from "./VariantMd.js";
 import ProductVariant from "../ProductVariant/ProductVariantMd.js";
 export const getAll = catchAsync(async (req, res, next) => {
-  const features = new ApiFeatures(Variant, req.query, req.role)
+  // FIX: "search" is not in vanta-api's RESERVED_QUERY_KEYS, so leaving it in
+  // req.query causes ApiFeatures to also add a literal { search: <value> }
+  // match filter (since no document has a "search" field, this always
+  // returns 0 results). Strip it out before constructing ApiFeatures.
+  const { search, ...restQuery } = req.query;
+  const features = new ApiFeatures(Variant, restQuery, req.role)
     .addManualFilters({
-      ...(req.query?.search
-        ? { value: { $regex: req.query.search, $options: "i" } }
+      ...(search
+        ? { value: { $regex: search, $options: "i" } }
         : {}),
     })
     .filter()
